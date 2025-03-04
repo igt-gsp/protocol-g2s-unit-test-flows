@@ -1,0 +1,12 @@
+{
+    "name": "protocol-g2s-unit-test-flows",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "gs-egm-unit-test-flows.json",
+            "credentialsFile": "gs-egm-unit-test-flows_cred.json"
+        }
+    }
+}
