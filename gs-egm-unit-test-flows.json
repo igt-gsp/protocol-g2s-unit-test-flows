@@ -1,1 +1,639 @@
-[]
+[
+    {
+        "id": "c8a723596530dedd",
+        "type": "tab",
+        "label": "Door Accesses",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "12817824be111c81",
+        "type": "xmlrpc-client",
+        "name": "UnitTestG2SClient",
+        "host": "localhost",
+        "port": "8559",
+        "path": "/"
+    },
+    {
+        "id": "f1af7bf27170a115",
+        "type": "test-collection",
+        "name": "G2S_cabinet_tests"
+    },
+    {
+        "id": "e837e1483f0a6f4f",
+        "type": "inject",
+        "z": "c8a723596530dedd",
+        "name": "Autostart",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "60",
+        "topic": "",
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "0f10e3a864e7db14"
+            ]
+        ]
+    },
+    {
+        "id": "f485c45069ed0f1c",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g2s_action_name": "",
+        "class_name": "G2S_cabinet",
+        "action_data": {
+            "door_info": {
+                "door_id": 1,
+                "set_flag": true
+            }
+        },
+        "action": {
+            "class_name": "G2S_cabinet",
+            "class_action": "Door Access",
+            "action_method": "g2s.egm.G2S_cabinet.doors.access"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 220,
+        "y": 260,
+        "wires": [
+            [
+                "c946a56504ad6ee6"
+            ]
+        ]
+    },
+    {
+        "id": "e646d899bcfefcea",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g2s_action_name": "",
+        "class_name": "G2S_cabinet",
+        "action_data": {
+            "door_info": {
+                "door_id": 1,
+                "set_flag": false
+            }
+        },
+        "action": {
+            "class_name": "G2S_cabinet",
+            "class_action": "Door Access",
+            "action_method": "g2s.egm.G2S_cabinet.doors.access"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 220,
+        "y": 380,
+        "wires": [
+            [
+                "570e25c0de45fff1"
+            ]
+        ]
+    },
+    {
+        "id": "e4a9d748fa3e3707",
+        "type": "test-collection-output",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "collection": "f1af7bf27170a115",
+        "x": 1230,
+        "y": 440,
+        "wires": [
+            [
+                "4a30ebe37f4db4c4"
+            ]
+        ]
+    },
+    {
+        "id": "c946a56504ad6ee6",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 500,
+        "y": 260,
+        "wires": [
+            [
+                "95d67418d0a4ae5b"
+            ]
+        ]
+    },
+    {
+        "id": "e93e04f660431a88",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "name": "Test Cabinet Device Status After Cabinet Door Open",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"true\");"
+            }
+        ],
+        "x": 1340,
+        "y": 260,
+        "wires": [
+            [
+                "a66069d6ed48cd33"
+            ]
+        ]
+    },
+    {
+        "id": "570e25c0de45fff1",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 500,
+        "y": 380,
+        "wires": [
+            [
+                "eaf4d7301bb7043b"
+            ]
+        ]
+    },
+    {
+        "id": "4a30ebe37f4db4c4",
+        "type": "debug",
+        "z": "c8a723596530dedd",
+        "name": "Print Results",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1410,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "a66069d6ed48cd33",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            },
+            "meter_name": "G2S_cabinetDoorOpenCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 580,
+        "y": 320,
+        "wires": [
+            [
+                "ca9ae338d80ec7da"
+            ]
+        ]
+    },
+    {
+        "id": "ca9ae338d80ec7da",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "name": "Test Cabinet Meters After Cabinet Door Open",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Cabinet Door Count is 1",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
+            }
+        ],
+        "x": 1310,
+        "y": 320,
+        "wires": [
+            [
+                "e646d899bcfefcea"
+            ]
+        ]
+    },
+    {
+        "id": "95d67418d0a4ae5b",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 260,
+        "wires": [
+            [
+                "0c5db6aad7d7488b"
+            ]
+        ]
+    },
+    {
+        "id": "0c5db6aad7d7488b",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1030,
+        "y": 260,
+        "wires": [
+            [
+                "e93e04f660431a88"
+            ]
+        ]
+    },
+    {
+        "id": "eaf4d7301bb7043b",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 380,
+        "wires": [
+            [
+                "141f6679ad599c95"
+            ]
+        ]
+    },
+    {
+        "id": "141f6679ad599c95",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1030,
+        "y": 380,
+        "wires": [
+            [
+                "9cac8d1a6a9985d0"
+            ]
+        ]
+    },
+    {
+        "id": "9cac8d1a6a9985d0",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "name": "Test Cabinet Device Status After Cabinet Door Closed",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"false\");"
+            }
+        ],
+        "x": 1340,
+        "y": 380,
+        "wires": [
+            [
+                "e4a9d748fa3e3707"
+            ]
+        ]
+    },
+    {
+        "id": "0f10e3a864e7db14",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 500,
+        "y": 140,
+        "wires": [
+            [
+                "2911ad6d03f49091"
+            ]
+        ]
+    },
+    {
+        "id": "2911ad6d03f49091",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 140,
+        "wires": [
+            [
+                "7039332cc2eeb333"
+            ]
+        ]
+    },
+    {
+        "id": "7039332cc2eeb333",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1030,
+        "y": 140,
+        "wires": [
+            [
+                "458ec5089e3271dd"
+            ]
+        ]
+    },
+    {
+        "id": "458ec5089e3271dd",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "name": "Test Initial Cabinet Device Status",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"false\");"
+            }
+        ],
+        "x": 1280,
+        "y": 140,
+        "wires": [
+            [
+                "5e8772429633f008"
+            ]
+        ]
+    },
+    {
+        "id": "fabe4b90f7c275df",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            },
+            "meter_name": "G2S_cabinetDoorOpenCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 680,
+        "y": 540,
+        "wires": [
+            [
+                "1e2b1fde1fb3c97d"
+            ]
+        ]
+    },
+    {
+        "id": "53d143d7f138fc91",
+        "type": "inject",
+        "z": "c8a723596530dedd",
+        "name": "Autostart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 380,
+        "y": 540,
+        "wires": [
+            [
+                "fabe4b90f7c275df"
+            ]
+        ]
+    },
+    {
+        "id": "1e2b1fde1fb3c97d",
+        "type": "debug",
+        "z": "c8a723596530dedd",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "5e8772429633f008",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            },
+            "meter_name": "G2S_cabinetDoorOpenCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 580,
+        "y": 200,
+        "wires": [
+            [
+                "0e8b10a042468cfa"
+            ]
+        ]
+    },
+    {
+        "id": "0e8b10a042468cfa",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "name": "Test Initial Cabinet Door Meters",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Cabinet Door Open Count is 0",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
+            }
+        ],
+        "x": 1270,
+        "y": 200,
+        "wires": [
+            [
+                "f485c45069ed0f1c"
+            ]
+        ]
+    }
+]
