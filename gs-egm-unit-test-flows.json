@@ -113,8 +113,8 @@
         "z": "c8a723596530dedd",
         "name": "",
         "collection": "f1af7bf27170a115",
-        "x": 1230,
-        "y": 440,
+        "x": 630,
+        "y": 640,
         "wires": [
             [
                 "4a30ebe37f4db4c4",
@@ -228,8 +228,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1430,
-        "y": 440,
+        "x": 830,
+        "y": 640,
         "wires": []
     },
     {
@@ -562,8 +562,8 @@
         "type": "test-exporter-junit",
         "z": "c8a723596530dedd",
         "name": "",
-        "x": 1450,
-        "y": 480,
+        "x": 850,
+        "y": 680,
         "wires": [
             [
                 "f6b5801988103ab8"
@@ -581,10 +581,12 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1680,
-        "y": 480,
+        "x": 1080,
+        "y": 680,
         "wires": [
-            []
+            [
+                "0dfa7991618f2426"
+            ]
         ]
     },
     {
@@ -635,6 +637,41 @@
             [
                 "570e25c0de45fff1"
             ]
+        ]
+    },
+    {
+        "id": "0dfa7991618f2426",
+        "type": "xmlrpc call",
+        "z": "c8a723596530dedd",
+        "name": "Exit G2S Runner",
+        "method": "g2s.egm.runner.exit",
+        "client": "12817824be111c81",
+        "x": 850,
+        "y": 740,
+        "wires": [
+            [
+                "94eafa1bf32c1ed9"
+            ]
+        ]
+    },
+    {
+        "id": "94eafa1bf32c1ed9",
+        "type": "exec",
+        "z": "c8a723596530dedd",
+        "command": "pkill node-red",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": true,
+        "oldrc": false,
+        "name": "Kill Node-red",
+        "x": 850,
+        "y": 800,
+        "wires": [
+            [],
+            [],
+            []
         ]
     }
 ]
