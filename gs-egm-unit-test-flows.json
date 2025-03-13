@@ -117,7 +117,8 @@
         "y": 440,
         "wires": [
             [
-                "4a30ebe37f4db4c4"
+                "4a30ebe37f4db4c4",
+                "0d43fcfa9ddc9da2"
             ]
         ]
     },
@@ -227,7 +228,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1410,
+        "x": 1430,
         "y": 440,
         "wires": []
     },
@@ -554,6 +555,36 @@
             [
                 "f485c45069ed0f1c"
             ]
+        ]
+    },
+    {
+        "id": "0d43fcfa9ddc9da2",
+        "type": "test-exporter-junit",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "x": 1450,
+        "y": 480,
+        "wires": [
+            [
+                "f6b5801988103ab8"
+            ]
+        ]
+    },
+    {
+        "id": "f6b5801988103ab8",
+        "type": "file",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "filename": "test_report.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1680,
+        "y": 480,
+        "wires": [
+            []
         ]
     }
 ]
