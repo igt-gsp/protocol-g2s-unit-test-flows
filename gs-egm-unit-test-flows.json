@@ -575,7 +575,7 @@
         "type": "file",
         "z": "c8a723596530dedd",
         "name": "",
-        "filename": "test_report.json",
+        "filename": "test_report.xml",
         "filenameType": "str",
         "appendNewline": true,
         "createDir": false,
