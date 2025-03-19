@@ -84,7 +84,7 @@
             "a695e064d01a54ff"
         ],
         "x": 14,
-        "y": 459,
+        "y": 439,
         "w": 1632,
         "h": 322
     },
@@ -105,10 +105,113 @@
             "94eafa1bf32c1ed9",
             "05c85f9272a3a3fd"
         ],
-        "x": 364,
-        "y": 859,
+        "x": 324,
+        "y": 1599,
         "w": 802,
         "h": 249.5
+    },
+    {
+        "id": "d048657b1a949531",
+        "type": "group",
+        "z": "c8a723596530dedd",
+        "name": "Auxilary Door",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "dceb2e112e99b2d9",
+            "092260274ba5ac70",
+            "4f7c2dea7105cf8b",
+            "bfecbd12cba85045",
+            "eb38a46e6a996fa2",
+            "daa86c4994551380",
+            "fe6f7752d1f0f5fa",
+            "2748680194d541df",
+            "fa075a30c409fef6",
+            "62f2354293404c9a",
+            "7685228b79653241",
+            "ac8dacbb0c56c1e9",
+            "79a315c23e7c68a2",
+            "0e09bd5302eb3aa5",
+            "1486ec4621d009a1",
+            "1908db1aab4bcb64",
+            "24eef18af711cc66",
+            "7234db1be9c2081c",
+            "b9d2d496a2b576b8",
+            "d2e4d60d104c4072",
+            "371a6fd6ea19a643",
+            "e4da3cbb4e310f14"
+        ],
+        "x": 14,
+        "y": 779,
+        "w": 1632,
+        "h": 322
+    },
+    {
+        "id": "3586158adc4e6bdc",
+        "type": "group",
+        "z": "c8a723596530dedd",
+        "name": "Hard Meter Disconnected",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b25a29255f43499a",
+            "953dbdf83ad27d44",
+            "e2b6b003a9bdcc98",
+            "61e143c697c15da3",
+            "85885447c8de1e98",
+            "ecb4f919a3e63cab",
+            "0b81c8ae9ce8f3dd",
+            "9d7fe50e3ba4f48c",
+            "5a092e7ad8b7827b",
+            "2750ed48d3752580",
+            "ab2fa7f35fdc23cc",
+            "f239bf9ab2c7fa7f",
+            "37747a76fd9bf1b9",
+            "8701646173c5870c",
+            "3d04d4a0cfb93139",
+            "ee6f291fe5fdaf48",
+            "e1fe623c53e2d3c7",
+            "6bd43167ebdab4a5"
+        ],
+        "x": 14,
+        "y": 1119,
+        "w": 1642,
+        "h": 202
+    },
+    {
+        "id": "2105812445ed3a70",
+        "type": "group",
+        "z": "c8a723596530dedd",
+        "name": "Service Lamp Activated",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e105bd0169f8594f",
+            "459f1d04c86fc9e6",
+            "412e40a1d0c73679",
+            "8a0597533482f597",
+            "ec8e4eb2f2699656",
+            "ef689196a5522e48",
+            "2865e9535def8b46",
+            "99fd9b3d8f53aa87",
+            "6edbdc605a0e44a0",
+            "133cb31a4dfacf9f",
+            "475c789fc3b07551",
+            "fc7dfc85415a5370",
+            "c708bc8a384df3f2",
+            "57e51d9954e40ab4",
+            "826034ea8b7dcec8",
+            "1f1be164e001f572",
+            "d9586510f3ff26a6",
+            "521869dcda27127f"
+        ],
+        "x": 14,
+        "y": 1339,
+        "w": 1642,
+        "h": 202
     },
     {
         "id": "12817824be111c81",
@@ -233,8 +336,8 @@
         "g": "94e3d67e4fa53b9d",
         "name": "",
         "collection": "f1af7bf27170a115",
-        "x": 610,
-        "y": 900,
+        "x": 570,
+        "y": 1640,
         "wires": [
             [
                 "4a30ebe37f4db4c4",
@@ -352,8 +455,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 810,
-        "y": 900,
+        "x": 770,
+        "y": 1640,
         "wires": []
     },
     {
@@ -700,8 +803,8 @@
         "z": "c8a723596530dedd",
         "g": "94e3d67e4fa53b9d",
         "name": "",
-        "x": 830,
-        "y": 940,
+        "x": 790,
+        "y": 1680,
         "wires": [
             [
                 "f6b5801988103ab8"
@@ -720,8 +823,8 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 1060,
-        "y": 940,
+        "x": 1020,
+        "y": 1680,
         "wires": [
             [
                 "0dfa7991618f2426"
@@ -788,8 +891,8 @@
         "name": "Exit G2S Runner",
         "method": "g2s.egm.runner.exit",
         "client": "12817824be111c81",
-        "x": 830,
-        "y": 1000,
+        "x": 790,
+        "y": 1740,
         "wires": [
             [
                 "94eafa1bf32c1ed9"
@@ -809,8 +912,8 @@
         "winHide": true,
         "oldrc": false,
         "name": "Kill Node-red",
-        "x": 830,
-        "y": 1060,
+        "x": 790,
+        "y": 1800,
         "wires": [
             [],
             [],
@@ -845,7 +948,7 @@
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
         "x": 150,
-        "y": 620,
+        "y": 600,
         "wires": [
             [
                 "c41f6573c0c9efe8"
@@ -880,7 +983,7 @@
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
         "x": 150,
-        "y": 740,
+        "y": 720,
         "wires": [
             [
                 "d00c5789d0c530c9"
@@ -915,7 +1018,7 @@
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
         "x": 640,
-        "y": 620,
+        "y": 600,
         "wires": [
             [
                 "d044a16e83410986"
@@ -941,7 +1044,7 @@
             }
         ],
         "x": 1330,
-        "y": 620,
+        "y": 600,
         "wires": [
             [
                 "8e3bdffe687d1df4"
@@ -976,7 +1079,7 @@
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
         "x": 640,
-        "y": 740,
+        "y": 720,
         "wires": [
             [
                 "cee108a313c0d2fa"
@@ -1012,7 +1115,7 @@
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
         "x": 570,
-        "y": 680,
+        "y": 660,
         "wires": [
             [
                 "c2e71b791cae974d"
@@ -1034,7 +1137,7 @@
             }
         ],
         "x": 1310,
-        "y": 680,
+        "y": 660,
         "wires": [
             [
                 "21f5453807b6ec63"
@@ -1062,7 +1165,7 @@
         "to": "",
         "reg": false,
         "x": 880,
-        "y": 620,
+        "y": 600,
         "wires": [
             [
                 "32a148fac23e0de3"
@@ -1079,7 +1182,7 @@
         "attr": "",
         "chr": "",
         "x": 1030,
-        "y": 620,
+        "y": 600,
         "wires": [
             [
                 "a39a6d834c2d8773"
@@ -1107,7 +1210,7 @@
         "to": "",
         "reg": false,
         "x": 880,
-        "y": 740,
+        "y": 720,
         "wires": [
             [
                 "5db4c7a33b63cece"
@@ -1124,7 +1227,7 @@
         "attr": "",
         "chr": "",
         "x": 1030,
-        "y": 740,
+        "y": 720,
         "wires": [
             [
                 "392c4130464ffa9a"
@@ -1150,7 +1253,7 @@
             }
         ],
         "x": 1330,
-        "y": 740,
+        "y": 720,
         "wires": [
             [
                 "a695e064d01a54ff"
@@ -1185,7 +1288,7 @@
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
         "x": 500,
-        "y": 500,
+        "y": 480,
         "wires": [
             [
                 "1c4d83b6e44995bd"
@@ -1213,7 +1316,7 @@
         "to": "",
         "reg": false,
         "x": 880,
-        "y": 500,
+        "y": 480,
         "wires": [
             [
                 "6295a1bba8ee32f8"
@@ -1230,7 +1333,7 @@
         "attr": "",
         "chr": "",
         "x": 1030,
-        "y": 500,
+        "y": 480,
         "wires": [
             [
                 "7b988cb581838c28"
@@ -1256,7 +1359,7 @@
             }
         ],
         "x": 1290,
-        "y": 500,
+        "y": 480,
         "wires": [
             [
                 "fb73391808a05d89"
@@ -1292,7 +1395,7 @@
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
         "x": 570,
-        "y": 560,
+        "y": 540,
         "wires": [
             [
                 "aff7ca74d1c12718"
@@ -1314,7 +1417,7 @@
             }
         ],
         "x": 1260,
-        "y": 560,
+        "y": 540,
         "wires": [
             [
                 "40f6571fe387783f"
@@ -1340,7 +1443,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 410,
-        "y": 620,
+        "y": 600,
         "wires": [
             [
                 "8d9ac7b18db36e6c"
@@ -1366,7 +1469,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 410,
-        "y": 740,
+        "y": 720,
         "wires": [
             [
                 "180c137d64519cc7"
@@ -1397,7 +1500,7 @@
             "f71fde7872cdcc13"
         ],
         "x": 55,
-        "y": 500,
+        "y": 480,
         "wires": [
             [
                 "50a2b947947b6577"
@@ -1411,10 +1514,10 @@
         "g": "94e3d67e4fa53b9d",
         "name": "link in 2",
         "links": [
-            "a695e064d01a54ff"
+            "521869dcda27127f"
         ],
-        "x": 405,
-        "y": 900,
+        "x": 365,
+        "y": 1640,
         "wires": [
             [
                 "e4a9d748fa3e3707"
@@ -1429,10 +1532,1533 @@
         "name": "link out 2",
         "mode": "link",
         "links": [
-            "05c85f9272a3a3fd"
+            "371a6fd6ea19a643"
         ],
         "x": 1605,
-        "y": 740,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "dceb2e112e99b2d9",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "g2s_action_name": "",
+        "class_name": "G2S_cabinet",
+        "action_data": {
+            "door_info": {
+                "door_id": 3,
+                "set_flag": true
+            }
+        },
+        "action": {
+            "class_name": "G2S_cabinet",
+            "class_action": "Door Access",
+            "action_method": "g2s.egm.G2S_cabinet.doors.access"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 160,
+        "y": 940,
+        "wires": [
+            [
+                "b9d2d496a2b576b8"
+            ]
+        ]
+    },
+    {
+        "id": "092260274ba5ac70",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "g2s_action_name": "",
+        "class_name": "G2S_cabinet",
+        "action_data": {
+            "door_info": {
+                "door_id": 3,
+                "set_flag": false
+            }
+        },
+        "action": {
+            "class_name": "G2S_cabinet",
+            "class_action": "Door Access",
+            "action_method": "g2s.egm.G2S_cabinet.doors.access"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 160,
+        "y": 1060,
+        "wires": [
+            [
+                "d2e4d60d104c4072"
+            ]
+        ]
+    },
+    {
+        "id": "4f7c2dea7105cf8b",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 640,
+        "y": 940,
+        "wires": [
+            [
+                "2748680194d541df"
+            ]
+        ]
+    },
+    {
+        "id": "bfecbd12cba85045",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "Test Cabinet Device Status After Auxilary Door Open",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"true\");"
+            }
+        ],
+        "x": 1340,
+        "y": 940,
+        "wires": [
+            [
+                "daa86c4994551380"
+            ]
+        ]
+    },
+    {
+        "id": "eb38a46e6a996fa2",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 640,
+        "y": 1060,
+        "wires": [
+            [
+                "62f2354293404c9a"
+            ]
+        ]
+    },
+    {
+        "id": "daa86c4994551380",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            },
+            "meter_name": "G2S_auxDoorOpenCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 570,
+        "y": 1000,
+        "wires": [
+            [
+                "fe6f7752d1f0f5fa"
+            ]
+        ]
+    },
+    {
+        "id": "fe6f7752d1f0f5fa",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "Test Cabinet Meters After Auxilary Door Open",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Cabinet Door Count is 1",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
+            }
+        ],
+        "x": 1310,
+        "y": 1000,
+        "wires": [
+            [
+                "092260274ba5ac70"
+            ]
+        ]
+    },
+    {
+        "id": "2748680194d541df",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 940,
+        "wires": [
+            [
+                "fa075a30c409fef6"
+            ]
+        ]
+    },
+    {
+        "id": "fa075a30c409fef6",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1030,
+        "y": 940,
+        "wires": [
+            [
+                "bfecbd12cba85045"
+            ]
+        ]
+    },
+    {
+        "id": "62f2354293404c9a",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1060,
+        "wires": [
+            [
+                "7685228b79653241"
+            ]
+        ]
+    },
+    {
+        "id": "7685228b79653241",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1030,
+        "y": 1060,
+        "wires": [
+            [
+                "ac8dacbb0c56c1e9"
+            ]
+        ]
+    },
+    {
+        "id": "ac8dacbb0c56c1e9",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "Test Cabinet Device Status After Auxilary Door Closed",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"false\");"
+            }
+        ],
+        "x": 1340,
+        "y": 1060,
+        "wires": [
+            [
+                "e4da3cbb4e310f14"
+            ]
+        ]
+    },
+    {
+        "id": "79a315c23e7c68a2",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 500,
+        "y": 820,
+        "wires": [
+            [
+                "0e09bd5302eb3aa5"
+            ]
+        ]
+    },
+    {
+        "id": "0e09bd5302eb3aa5",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 820,
+        "wires": [
+            [
+                "1486ec4621d009a1"
+            ]
+        ]
+    },
+    {
+        "id": "1486ec4621d009a1",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1030,
+        "y": 820,
+        "wires": [
+            [
+                "1908db1aab4bcb64"
+            ]
+        ]
+    },
+    {
+        "id": "1908db1aab4bcb64",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "Test Initial Cabinet Auxilary Door Status",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"false\");"
+            }
+        ],
+        "x": 1300,
+        "y": 820,
+        "wires": [
+            [
+                "24eef18af711cc66"
+            ]
+        ]
+    },
+    {
+        "id": "24eef18af711cc66",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            },
+            "meter_name": "G2S_auxDoorOpenCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 570,
+        "y": 880,
+        "wires": [
+            [
+                "7234db1be9c2081c"
+            ]
+        ]
+    },
+    {
+        "id": "7234db1be9c2081c",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "Test Initial Auxilary Door Meters",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Cabinet Door Open Count is 0",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
+            }
+        ],
+        "x": 1270,
+        "y": 880,
+        "wires": [
+            [
+                "dceb2e112e99b2d9"
+            ]
+        ]
+    },
+    {
+        "id": "b9d2d496a2b576b8",
+        "type": "delay",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 940,
+        "wires": [
+            [
+                "4f7c2dea7105cf8b"
+            ]
+        ]
+    },
+    {
+        "id": "d2e4d60d104c4072",
+        "type": "delay",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 1060,
+        "wires": [
+            [
+                "eb38a46e6a996fa2"
+            ]
+        ]
+    },
+    {
+        "id": "371a6fd6ea19a643",
+        "type": "link in",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "link in 3",
+        "links": [
+            "a695e064d01a54ff"
+        ],
+        "x": 55,
+        "y": 820,
+        "wires": [
+            [
+                "79a315c23e7c68a2"
+            ]
+        ]
+    },
+    {
+        "id": "e4da3cbb4e310f14",
+        "type": "link out",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "b25a29255f43499a"
+        ],
+        "x": 1605,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "b25a29255f43499a",
+        "type": "link in",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "link in 4",
+        "links": [
+            "e4da3cbb4e310f14"
+        ],
+        "x": 55,
+        "y": 1160,
+        "wires": [
+            [
+                "953dbdf83ad27d44"
+            ]
+        ]
+    },
+    {
+        "id": "953dbdf83ad27d44",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 510,
+        "y": 1160,
+        "wires": [
+            [
+                "e2b6b003a9bdcc98"
+            ]
+        ]
+    },
+    {
+        "id": "e2b6b003a9bdcc98",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1160,
+        "wires": [
+            [
+                "61e143c697c15da3"
+            ]
+        ]
+    },
+    {
+        "id": "61e143c697c15da3",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1060,
+        "y": 1160,
+        "wires": [
+            [
+                "85885447c8de1e98"
+            ]
+        ]
+    },
+    {
+        "id": "85885447c8de1e98",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "Test Initial Cabinet Hard Meter Status",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"false\");"
+            }
+        ],
+        "x": 1300,
+        "y": 1160,
+        "wires": [
+            [
+                "ecb4f919a3e63cab"
+            ]
+        ]
+    },
+    {
+        "id": "ecb4f919a3e63cab",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "g2s_action_name": "",
+        "class_name": "G2S_cabinet",
+        "action_data": {
+            "error_info": {
+                "error_code": 1,
+                "set_flag": true
+            }
+        },
+        "action": {
+            "class_name": "G2S_cabinet",
+            "class_action": "Error",
+            "action_method": "g2s.egm.G2S_cabinet.errors.set_error"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 220,
+        "y": 1220,
+        "wires": [
+            [
+                "0b81c8ae9ce8f3dd"
+            ]
+        ]
+    },
+    {
+        "id": "0b81c8ae9ce8f3dd",
+        "type": "delay",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 1220,
+        "wires": [
+            [
+                "9d7fe50e3ba4f48c"
+            ]
+        ]
+    },
+    {
+        "id": "9d7fe50e3ba4f48c",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 690,
+        "y": 1220,
+        "wires": [
+            [
+                "5a092e7ad8b7827b"
+            ]
+        ]
+    },
+    {
+        "id": "5a092e7ad8b7827b",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1220,
+        "wires": [
+            [
+                "2750ed48d3752580"
+            ]
+        ]
+    },
+    {
+        "id": "2750ed48d3752580",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1060,
+        "y": 1220,
+        "wires": [
+            [
+                "ab2fa7f35fdc23cc"
+            ]
+        ]
+    },
+    {
+        "id": "ab2fa7f35fdc23cc",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "Test Cabinet Device Status After Hard Meter Disconnect",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"true\");"
+            }
+        ],
+        "x": 1360,
+        "y": 1220,
+        "wires": [
+            [
+                "f239bf9ab2c7fa7f"
+            ]
+        ]
+    },
+    {
+        "id": "f239bf9ab2c7fa7f",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "g2s_action_name": "",
+        "class_name": "G2S_cabinet",
+        "action_data": {
+            "error_info": {
+                "error_code": 1,
+                "set_flag": false
+            }
+        },
+        "action": {
+            "class_name": "G2S_cabinet",
+            "class_action": "Error",
+            "action_method": "g2s.egm.G2S_cabinet.errors.set_error"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 220,
+        "y": 1280,
+        "wires": [
+            [
+                "37747a76fd9bf1b9"
+            ]
+        ]
+    },
+    {
+        "id": "37747a76fd9bf1b9",
+        "type": "delay",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 1280,
+        "wires": [
+            [
+                "8701646173c5870c"
+            ]
+        ]
+    },
+    {
+        "id": "8701646173c5870c",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 690,
+        "y": 1280,
+        "wires": [
+            [
+                "3d04d4a0cfb93139"
+            ]
+        ]
+    },
+    {
+        "id": "3d04d4a0cfb93139",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1280,
+        "wires": [
+            [
+                "ee6f291fe5fdaf48"
+            ]
+        ]
+    },
+    {
+        "id": "ee6f291fe5fdaf48",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1060,
+        "y": 1280,
+        "wires": [
+            [
+                "e1fe623c53e2d3c7"
+            ]
+        ]
+    },
+    {
+        "id": "e1fe623c53e2d3c7",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "Test Cabinet Device Status After Hard Meter Reconnect",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"true\");"
+            }
+        ],
+        "x": 1360,
+        "y": 1280,
+        "wires": [
+            [
+                "6bd43167ebdab4a5"
+            ]
+        ]
+    },
+    {
+        "id": "6bd43167ebdab4a5",
+        "type": "link out",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "e105bd0169f8594f"
+        ],
+        "x": 1615,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "e105bd0169f8594f",
+        "type": "link in",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "link in 5",
+        "links": [
+            "6bd43167ebdab4a5"
+        ],
+        "x": 55,
+        "y": 1380,
+        "wires": [
+            [
+                "459f1d04c86fc9e6"
+            ]
+        ]
+    },
+    {
+        "id": "459f1d04c86fc9e6",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 510,
+        "y": 1380,
+        "wires": [
+            [
+                "412e40a1d0c73679"
+            ]
+        ]
+    },
+    {
+        "id": "412e40a1d0c73679",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1380,
+        "wires": [
+            [
+                "8a0597533482f597"
+            ]
+        ]
+    },
+    {
+        "id": "8a0597533482f597",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1060,
+        "y": 1380,
+        "wires": [
+            [
+                "ec8e4eb2f2699656"
+            ]
+        ]
+    },
+    {
+        "id": "ec8e4eb2f2699656",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "Test Initial Cabinet Service Lamp Status",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"false\");"
+            }
+        ],
+        "x": 1310,
+        "y": 1380,
+        "wires": [
+            [
+                "ef689196a5522e48"
+            ]
+        ]
+    },
+    {
+        "id": "ef689196a5522e48",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "g2s_action_name": "",
+        "class_name": "G2S_cabinet",
+        "action_data": {
+            "on": true
+        },
+        "action": {
+            "class_name": "G2S_cabinet",
+            "class_action": "Service Lamp Activation",
+            "action_method": "g2s.egm.G2S_cabinet.service_lamp.set_state"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 180,
+        "y": 1440,
+        "wires": [
+            [
+                "2865e9535def8b46"
+            ]
+        ]
+    },
+    {
+        "id": "2865e9535def8b46",
+        "type": "delay",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 1440,
+        "wires": [
+            [
+                "99fd9b3d8f53aa87"
+            ]
+        ]
+    },
+    {
+        "id": "99fd9b3d8f53aa87",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 690,
+        "y": 1440,
+        "wires": [
+            [
+                "6edbdc605a0e44a0"
+            ]
+        ]
+    },
+    {
+        "id": "6edbdc605a0e44a0",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1440,
+        "wires": [
+            [
+                "133cb31a4dfacf9f"
+            ]
+        ]
+    },
+    {
+        "id": "133cb31a4dfacf9f",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1060,
+        "y": 1440,
+        "wires": [
+            [
+                "475c789fc3b07551"
+            ]
+        ]
+    },
+    {
+        "id": "475c789fc3b07551",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "Test Cabinet Device Status After Service Lamp Activated",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"true\");"
+            }
+        ],
+        "x": 1360,
+        "y": 1440,
+        "wires": [
+            [
+                "fc7dfc85415a5370"
+            ]
+        ]
+    },
+    {
+        "id": "fc7dfc85415a5370",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "g2s_action_name": "",
+        "class_name": "G2S_cabinet",
+        "action_data": {
+            "on": false
+        },
+        "action": {
+            "class_name": "G2S_cabinet",
+            "class_action": "Service Lamp Activation",
+            "action_method": "g2s.egm.G2S_cabinet.service_lamp.set_state"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 180,
+        "y": 1500,
+        "wires": [
+            [
+                "c708bc8a384df3f2"
+            ]
+        ]
+    },
+    {
+        "id": "c708bc8a384df3f2",
+        "type": "delay",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 1500,
+        "wires": [
+            [
+                "57e51d9954e40ab4"
+            ]
+        ]
+    },
+    {
+        "id": "57e51d9954e40ab4",
+        "type": "g2sAction",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_cabinet",
+                "id": 1
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 690,
+        "y": 1500,
+        "wires": [
+            [
+                "826034ea8b7dcec8"
+            ]
+        ]
+    },
+    {
+        "id": "826034ea8b7dcec8",
+        "type": "change",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.result.device_status",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1500,
+        "wires": [
+            [
+                "1f1be164e001f572"
+            ]
+        ]
+    },
+    {
+        "id": "1f1be164e001f572",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1060,
+        "y": 1500,
+        "wires": [
+            [
+                "d9586510f3ff26a6"
+            ]
+        ]
+    },
+    {
+        "id": "d9586510f3ff26a6",
+        "type": "test-case",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "Test Cabinet Device Status After Service Lamp Deactivated",
+        "collection": "f1af7bf27170a115",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"true\");"
+            }
+        ],
+        "x": 1370,
+        "y": 1500,
+        "wires": [
+            [
+                "521869dcda27127f"
+            ]
+        ]
+    },
+    {
+        "id": "521869dcda27127f",
+        "type": "link out",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "link out 5",
+        "mode": "link",
+        "links": [
+            "05c85f9272a3a3fd"
+        ],
+        "x": 1615,
+        "y": 1500,
         "wires": []
     },
     {
