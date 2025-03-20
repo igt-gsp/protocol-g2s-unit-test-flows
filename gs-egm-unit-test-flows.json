@@ -2654,7 +2654,7 @@
                 "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
-                "name": "is cabinet door openned",
+                "name": "is hardware meters disconnected",
                 "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"false\");"
             }
         ],
