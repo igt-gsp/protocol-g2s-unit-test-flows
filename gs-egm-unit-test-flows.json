@@ -305,8 +305,7 @@
             "14f97943c484e1c5",
             "2637bc7daeb3c0ca",
             "6b4a550b5f793204",
-            "127fe2fdf8bc0482",
-            "b2f93088223fe672"
+            "127fe2fdf8bc0482"
         ],
         "x": 364,
         "y": 999,
@@ -2655,7 +2654,7 @@
                 "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
-                "name": "is hardware meters disconnected",
+                "name": "is cabinet door openned",
                 "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"false\");"
             }
         ],
@@ -4057,7 +4056,7 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is coinAcceptor Mechanical fault set",
@@ -4227,7 +4226,7 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
             },
             {
                 "name": "is mechincal fault cleared",
@@ -4300,8 +4299,7 @@
         "y": 1080,
         "wires": [
             [
-                "2637bc7daeb3c0ca",
-                "b2f93088223fe672"
+                "2637bc7daeb3c0ca"
             ]
         ]
     },
@@ -4787,23 +4785,6 @@
                 "d5dd1f3cb7d1cf9f"
             ]
         ]
-    },
-    {
-        "id": "b2f93088223fe672",
-        "type": "debug",
-        "z": "9e8caeae3c861ce5",
-        "g": "c79d08c7bae299cb",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1060,
-        "y": 1040,
-        "wires": []
     },
     {
         "id": "0dfa7991618f2426",
