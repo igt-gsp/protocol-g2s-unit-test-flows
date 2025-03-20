@@ -39,13 +39,8 @@
             "570e25c0de45fff1",
             "a66069d6ed48cd33",
             "ca9ae338d80ec7da",
-            "95d67418d0a4ae5b",
-            "0c5db6aad7d7488b",
-            "eaf4d7301bb7043b",
-            "141f6679ad599c95",
             "9cac8d1a6a9985d0",
             "0f10e3a864e7db14",
-            "2911ad6d03f49091",
             "7039332cc2eeb333",
             "458ec5089e3271dd",
             "5e8772429633f008",
@@ -53,11 +48,13 @@
             "134ffa415bfeef39",
             "467497a71999d28d",
             "f71fde7872cdcc13",
-            "9409d78ed6221420"
+            "9409d78ed6221420",
+            "141f6679ad599c95",
+            "0c5db6aad7d7488b"
         ],
-        "x": 14,
+        "x": 24,
         "y": 99,
-        "w": 1632,
+        "w": 1482,
         "h": 322
     },
     {
@@ -76,25 +73,22 @@
             "180c137d64519cc7",
             "8e3bdffe687d1df4",
             "c2e71b791cae974d",
-            "d044a16e83410986",
-            "32a148fac23e0de3",
-            "cee108a313c0d2fa",
-            "5db4c7a33b63cece",
             "392c4130464ffa9a",
             "50a2b947947b6577",
-            "1c4d83b6e44995bd",
-            "6295a1bba8ee32f8",
             "7b988cb581838c28",
             "fb73391808a05d89",
             "aff7ca74d1c12718",
             "c41f6573c0c9efe8",
             "d00c5789d0c530c9",
             "a0b0e7dda6e6a636",
-            "a695e064d01a54ff"
+            "a695e064d01a54ff",
+            "5db4c7a33b63cece",
+            "32a148fac23e0de3",
+            "6295a1bba8ee32f8"
         ],
-        "x": 14,
+        "x": 24,
         "y": 439,
-        "w": 1632,
+        "w": 1482,
         "h": 322
     },
     {
@@ -134,25 +128,22 @@
             "eb38a46e6a996fa2",
             "daa86c4994551380",
             "fe6f7752d1f0f5fa",
-            "2748680194d541df",
-            "fa075a30c409fef6",
-            "62f2354293404c9a",
-            "7685228b79653241",
             "ac8dacbb0c56c1e9",
             "79a315c23e7c68a2",
-            "0e09bd5302eb3aa5",
-            "1486ec4621d009a1",
             "1908db1aab4bcb64",
             "24eef18af711cc66",
             "7234db1be9c2081c",
             "b9d2d496a2b576b8",
             "d2e4d60d104c4072",
             "371a6fd6ea19a643",
-            "e4da3cbb4e310f14"
+            "e4da3cbb4e310f14",
+            "7685228b79653241",
+            "fa075a30c409fef6",
+            "1486ec4621d009a1"
         ],
-        "x": 14,
+        "x": 24,
         "y": 779,
-        "w": 1632,
+        "w": 1482,
         "h": 322
     },
     {
@@ -166,26 +157,23 @@
         "nodes": [
             "b25a29255f43499a",
             "953dbdf83ad27d44",
-            "e2b6b003a9bdcc98",
-            "61e143c697c15da3",
             "85885447c8de1e98",
             "ecb4f919a3e63cab",
             "0b81c8ae9ce8f3dd",
             "9d7fe50e3ba4f48c",
-            "5a092e7ad8b7827b",
-            "2750ed48d3752580",
             "ab2fa7f35fdc23cc",
             "f239bf9ab2c7fa7f",
             "37747a76fd9bf1b9",
             "8701646173c5870c",
-            "3d04d4a0cfb93139",
-            "ee6f291fe5fdaf48",
             "e1fe623c53e2d3c7",
-            "6bd43167ebdab4a5"
+            "6bd43167ebdab4a5",
+            "ee6f291fe5fdaf48",
+            "2750ed48d3752580",
+            "61e143c697c15da3"
         ],
-        "x": 14,
+        "x": 24,
         "y": 1119,
-        "w": 1642,
+        "w": 1472,
         "h": 202
     },
     {
@@ -199,26 +187,23 @@
         "nodes": [
             "e105bd0169f8594f",
             "459f1d04c86fc9e6",
-            "412e40a1d0c73679",
-            "8a0597533482f597",
             "ec8e4eb2f2699656",
             "ef689196a5522e48",
             "2865e9535def8b46",
             "99fd9b3d8f53aa87",
-            "6edbdc605a0e44a0",
-            "133cb31a4dfacf9f",
             "475c789fc3b07551",
             "fc7dfc85415a5370",
             "c708bc8a384df3f2",
             "57e51d9954e40ab4",
-            "826034ea8b7dcec8",
-            "1f1be164e001f572",
             "d9586510f3ff26a6",
-            "521869dcda27127f"
+            "521869dcda27127f",
+            "1f1be164e001f572",
+            "133cb31a4dfacf9f",
+            "8a0597533482f597"
         ],
-        "x": 14,
+        "x": 24,
         "y": 1339,
-        "w": 1642,
+        "w": 1472,
         "h": 202
     },
     {
@@ -237,25 +222,22 @@
             "374db95d9b67ab36",
             "c6e84609274d6dd2",
             "d12cbb773f52dc25",
-            "2f3198e329bde4e0",
-            "05b6af6bd2ada1cf",
-            "3e4de2b4df163521",
-            "4d7dd483d6d90ac7",
             "cb8cdc1a91440278",
             "b357a495b7722b0c",
-            "189aaf61278ad8f2",
-            "dcdf62e0cd20b180",
             "4e8bdce203ccd449",
             "3ee6547f8e6e2e7c",
             "0a903883c8546788",
             "c816b1d17c226400",
             "b97ac9f891b0477c",
             "811095ec10dd1e8e",
-            "b9273549ac917b61"
+            "b9273549ac917b61",
+            "e4a414870334e783",
+            "7f2afbee828d6102",
+            "e9d21ea0bf7c95e3"
         ],
         "x": 24,
         "y": 39,
-        "w": 1762,
+        "w": 1592,
         "h": 322
     },
     {
@@ -269,26 +251,23 @@
         "nodes": [
             "a7cede1121e0c825",
             "b27281739c29c8f5",
-            "dd20657c8d43c4b1",
-            "a67cd6bab7f97048",
             "4a5d515a197c3950",
             "5d0c6eeebd04289a",
             "160c17b775ec768b",
             "30c043ac4e698c45",
-            "5edfdd1cec0f0633",
-            "5a21c2dfb35bdf0d",
             "dacff68d03623013",
             "9b4ccfc9efd8a5ec",
             "51bf46c80e7c62d7",
             "279b3339e7de873e",
-            "94361153014b9b23",
-            "8be097993d830ecb",
             "61af1ddaac701986",
-            "49be9a10bd34b649"
+            "49be9a10bd34b649",
+            "6996367648e376a6",
+            "afd3ba730e3d1583",
+            "a508fd050f556345"
         ],
         "x": 24,
         "y": 399,
-        "w": 1762,
+        "w": 1592,
         "h": 202
     },
     {
@@ -323,8 +302,6 @@
         "nodes": [
             "13e6d9f00965e8ca",
             "a5eeec50f109e0e2",
-            "6bfec6d2bba40b50",
-            "01e3af255703b017",
             "fe475e6e355248f2",
             "510c9e35e8661a84",
             "f9f40d1d79265a05",
@@ -336,11 +313,12 @@
             "81c649a0120fc58f",
             "654066c146573c42",
             "01692a3eb649943f",
-            "9c5c5faa0343ce53"
+            "9c5c5faa0343ce53",
+            "d438e1e12a759299"
         ],
         "x": 24,
         "y": 639,
-        "w": 1762,
+        "w": 1592,
         "h": 322
     },
     {
@@ -407,7 +385,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 160,
+        "x": 180,
         "y": 260,
         "wires": [
             [
@@ -442,7 +420,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 160,
+        "x": 180,
         "y": 380,
         "wires": [
             [
@@ -493,11 +471,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 640,
+        "x": 660,
         "y": 260,
         "wires": [
             [
-                "95d67418d0a4ae5b"
+                "0c5db6aad7d7488b"
             ]
         ]
     },
@@ -512,14 +490,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"true\");"
             }
         ],
-        "x": 1340,
+        "x": 1200,
         "y": 260,
         "wires": [
             [
@@ -554,11 +532,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 640,
+        "x": 660,
         "y": 380,
         "wires": [
             [
-                "eaf4d7301bb7043b"
+                "141f6679ad599c95"
             ]
         ]
     },
@@ -608,7 +586,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 580,
+        "x": 600,
         "y": 320,
         "wires": [
             [
@@ -630,101 +608,11 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1310,
+        "x": 1170,
         "y": 320,
         "wires": [
             [
                 "e646d899bcfefcea"
-            ]
-        ]
-    },
-    {
-        "id": "95d67418d0a4ae5b",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "7b3d4ab5a74719d9",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 260,
-        "wires": [
-            [
-                "0c5db6aad7d7488b"
-            ]
-        ]
-    },
-    {
-        "id": "0c5db6aad7d7488b",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "7b3d4ab5a74719d9",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1030,
-        "y": 260,
-        "wires": [
-            [
-                "e93e04f660431a88"
-            ]
-        ]
-    },
-    {
-        "id": "eaf4d7301bb7043b",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "7b3d4ab5a74719d9",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 380,
-        "wires": [
-            [
-                "141f6679ad599c95"
-            ]
-        ]
-    },
-    {
-        "id": "141f6679ad599c95",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "7b3d4ab5a74719d9",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1030,
-        "y": 380,
-        "wires": [
-            [
-                "9cac8d1a6a9985d0"
             ]
         ]
     },
@@ -739,14 +627,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1340,
+        "x": 1200,
         "y": 380,
         "wires": [
             [
@@ -781,35 +669,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 500,
-        "y": 140,
-        "wires": [
-            [
-                "2911ad6d03f49091"
-            ]
-        ]
-    },
-    {
-        "id": "2911ad6d03f49091",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "7b3d4ab5a74719d9",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
+        "x": 520,
         "y": 140,
         "wires": [
             [
@@ -823,10 +683,10 @@
         "z": "c8a723596530dedd",
         "g": "7b3d4ab5a74719d9",
         "name": "",
-        "property": "payload",
+        "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 1030,
+        "x": 910,
         "y": 140,
         "wires": [
             [
@@ -845,14 +705,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1270,
+        "x": 1130,
         "y": 140,
         "wires": [
             [
@@ -888,7 +748,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 580,
+        "x": 600,
         "y": 200,
         "wires": [
             [
@@ -910,7 +770,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1270,
+        "x": 1130,
         "y": 200,
         "wires": [
             [
@@ -970,7 +830,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 410,
+        "x": 430,
         "y": 260,
         "wires": [
             [
@@ -996,7 +856,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 410,
+        "x": 430,
         "y": 380,
         "wires": [
             [
@@ -1031,7 +891,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 150,
+        "x": 170,
         "y": 600,
         "wires": [
             [
@@ -1066,7 +926,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 150,
+        "x": 170,
         "y": 720,
         "wires": [
             [
@@ -1101,11 +961,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 640,
+        "x": 660,
         "y": 600,
         "wires": [
             [
-                "d044a16e83410986"
+                "32a148fac23e0de3"
             ]
         ]
     },
@@ -1120,14 +980,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:logicDoorOpen\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:logicDoorOpen\"] === \"true\");"
             }
         ],
-        "x": 1330,
+        "x": 1190,
         "y": 600,
         "wires": [
             [
@@ -1162,11 +1022,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 640,
+        "x": 660,
         "y": 720,
         "wires": [
             [
-                "cee108a313c0d2fa"
+                "5db4c7a33b63cece"
             ]
         ]
     },
@@ -1198,7 +1058,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 570,
+        "x": 590,
         "y": 660,
         "wires": [
             [
@@ -1220,101 +1080,11 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1310,
+        "x": 1170,
         "y": 660,
         "wires": [
             [
                 "21f5453807b6ec63"
-            ]
-        ]
-    },
-    {
-        "id": "d044a16e83410986",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "64ed17276cb6744f",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 600,
-        "wires": [
-            [
-                "32a148fac23e0de3"
-            ]
-        ]
-    },
-    {
-        "id": "32a148fac23e0de3",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "64ed17276cb6744f",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1030,
-        "y": 600,
-        "wires": [
-            [
-                "a39a6d834c2d8773"
-            ]
-        ]
-    },
-    {
-        "id": "cee108a313c0d2fa",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "64ed17276cb6744f",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 720,
-        "wires": [
-            [
-                "5db4c7a33b63cece"
-            ]
-        ]
-    },
-    {
-        "id": "5db4c7a33b63cece",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "64ed17276cb6744f",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1030,
-        "y": 720,
-        "wires": [
-            [
-                "392c4130464ffa9a"
             ]
         ]
     },
@@ -1329,14 +1099,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:logicDoorOpen\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:logicDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1330,
+        "x": 1190,
         "y": 720,
         "wires": [
             [
@@ -1371,56 +1141,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 500,
-        "y": 480,
-        "wires": [
-            [
-                "1c4d83b6e44995bd"
-            ]
-        ]
-    },
-    {
-        "id": "1c4d83b6e44995bd",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "64ed17276cb6744f",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
+        "x": 520,
         "y": 480,
         "wires": [
             [
                 "6295a1bba8ee32f8"
-            ]
-        ]
-    },
-    {
-        "id": "6295a1bba8ee32f8",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "64ed17276cb6744f",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1030,
-        "y": 480,
-        "wires": [
-            [
-                "7b988cb581838c28"
             ]
         ]
     },
@@ -1435,14 +1160,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:logicDoorOpen\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:logicDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1290,
+        "x": 1150,
         "y": 480,
         "wires": [
             [
@@ -1478,7 +1203,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 570,
+        "x": 590,
         "y": 540,
         "wires": [
             [
@@ -1500,7 +1225,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1260,
+        "x": 1120,
         "y": 540,
         "wires": [
             [
@@ -1526,7 +1251,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 410,
+        "x": 430,
         "y": 600,
         "wires": [
             [
@@ -1552,7 +1277,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 410,
+        "x": 430,
         "y": 720,
         "wires": [
             [
@@ -1570,7 +1295,7 @@
         "links": [
             "a0b0e7dda6e6a636"
         ],
-        "x": 1605,
+        "x": 1465,
         "y": 380,
         "wires": []
     },
@@ -1583,7 +1308,7 @@
         "links": [
             "f71fde7872cdcc13"
         ],
-        "x": 195,
+        "x": 65,
         "y": 480,
         "wires": [
             [
@@ -1618,7 +1343,7 @@
         "links": [
             "371a6fd6ea19a643"
         ],
-        "x": 1605,
+        "x": 1465,
         "y": 720,
         "wires": []
     },
@@ -1649,7 +1374,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 160,
+        "x": 180,
         "y": 940,
         "wires": [
             [
@@ -1684,7 +1409,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 160,
+        "x": 180,
         "y": 1060,
         "wires": [
             [
@@ -1719,11 +1444,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 640,
+        "x": 660,
         "y": 940,
         "wires": [
             [
-                "2748680194d541df"
+                "fa075a30c409fef6"
             ]
         ]
     },
@@ -1738,14 +1463,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"true\");"
             }
         ],
-        "x": 1340,
+        "x": 1200,
         "y": 940,
         "wires": [
             [
@@ -1780,11 +1505,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 640,
+        "x": 660,
         "y": 1060,
         "wires": [
             [
-                "62f2354293404c9a"
+                "7685228b79653241"
             ]
         ]
     },
@@ -1816,7 +1541,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 570,
+        "x": 590,
         "y": 1000,
         "wires": [
             [
@@ -1838,101 +1563,11 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1310,
+        "x": 1170,
         "y": 1000,
         "wires": [
             [
                 "092260274ba5ac70"
-            ]
-        ]
-    },
-    {
-        "id": "2748680194d541df",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "d048657b1a949531",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 940,
-        "wires": [
-            [
-                "fa075a30c409fef6"
-            ]
-        ]
-    },
-    {
-        "id": "fa075a30c409fef6",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "d048657b1a949531",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1030,
-        "y": 940,
-        "wires": [
-            [
-                "bfecbd12cba85045"
-            ]
-        ]
-    },
-    {
-        "id": "62f2354293404c9a",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "d048657b1a949531",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 1060,
-        "wires": [
-            [
-                "7685228b79653241"
-            ]
-        ]
-    },
-    {
-        "id": "7685228b79653241",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "d048657b1a949531",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1030,
-        "y": 1060,
-        "wires": [
-            [
-                "ac8dacbb0c56c1e9"
             ]
         ]
     },
@@ -1947,14 +1582,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1340,
+        "x": 1200,
         "y": 1060,
         "wires": [
             [
@@ -1989,56 +1624,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 500,
-        "y": 820,
-        "wires": [
-            [
-                "0e09bd5302eb3aa5"
-            ]
-        ]
-    },
-    {
-        "id": "0e09bd5302eb3aa5",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "d048657b1a949531",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
+        "x": 520,
         "y": 820,
         "wires": [
             [
                 "1486ec4621d009a1"
-            ]
-        ]
-    },
-    {
-        "id": "1486ec4621d009a1",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "d048657b1a949531",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1030,
-        "y": 820,
-        "wires": [
-            [
-                "1908db1aab4bcb64"
             ]
         ]
     },
@@ -2053,14 +1643,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1300,
+        "x": 1160,
         "y": 820,
         "wires": [
             [
@@ -2096,7 +1686,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 570,
+        "x": 590,
         "y": 880,
         "wires": [
             [
@@ -2118,7 +1708,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1270,
+        "x": 1130,
         "y": 880,
         "wires": [
             [
@@ -2144,7 +1734,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 410,
+        "x": 430,
         "y": 940,
         "wires": [
             [
@@ -2170,7 +1760,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 410,
+        "x": 430,
         "y": 1060,
         "wires": [
             [
@@ -2187,7 +1777,7 @@
         "links": [
             "a695e064d01a54ff"
         ],
-        "x": 55,
+        "x": 65,
         "y": 820,
         "wires": [
             [
@@ -2205,7 +1795,7 @@
         "links": [
             "b25a29255f43499a"
         ],
-        "x": 1605,
+        "x": 1465,
         "y": 1060,
         "wires": []
     },
@@ -2218,7 +1808,7 @@
         "links": [
             "e4da3cbb4e310f14"
         ],
-        "x": 55,
+        "x": 65,
         "y": 1160,
         "wires": [
             [
@@ -2253,56 +1843,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 510,
-        "y": 1160,
-        "wires": [
-            [
-                "e2b6b003a9bdcc98"
-            ]
-        ]
-    },
-    {
-        "id": "e2b6b003a9bdcc98",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "3586158adc4e6bdc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 910,
+        "x": 520,
         "y": 1160,
         "wires": [
             [
                 "61e143c697c15da3"
-            ]
-        ]
-    },
-    {
-        "id": "61e143c697c15da3",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "3586158adc4e6bdc",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1060,
-        "y": 1160,
-        "wires": [
-            [
-                "85885447c8de1e98"
             ]
         ]
     },
@@ -2317,14 +1862,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"false\");"
             }
         ],
-        "x": 1300,
+        "x": 1140,
         "y": 1160,
         "wires": [
             [
@@ -2359,7 +1904,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 220,
+        "x": 230,
         "y": 1220,
         "wires": [
             [
@@ -2385,7 +1930,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 480,
+        "x": 490,
         "y": 1220,
         "wires": [
             [
@@ -2420,56 +1965,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 690,
-        "y": 1220,
-        "wires": [
-            [
-                "5a092e7ad8b7827b"
-            ]
-        ]
-    },
-    {
-        "id": "5a092e7ad8b7827b",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "3586158adc4e6bdc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 910,
+        "x": 700,
         "y": 1220,
         "wires": [
             [
                 "2750ed48d3752580"
-            ]
-        ]
-    },
-    {
-        "id": "2750ed48d3752580",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "3586158adc4e6bdc",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1060,
-        "y": 1220,
-        "wires": [
-            [
-                "ab2fa7f35fdc23cc"
             ]
         ]
     },
@@ -2484,14 +1984,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is hard meter disconnected",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"true\");"
             }
         ],
-        "x": 1360,
+        "x": 1200,
         "y": 1220,
         "wires": [
             [
@@ -2526,7 +2026,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 220,
+        "x": 230,
         "y": 1280,
         "wires": [
             [
@@ -2552,7 +2052,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 480,
+        "x": 490,
         "y": 1280,
         "wires": [
             [
@@ -2587,56 +2087,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 690,
-        "y": 1280,
-        "wires": [
-            [
-                "3d04d4a0cfb93139"
-            ]
-        ]
-    },
-    {
-        "id": "3d04d4a0cfb93139",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "3586158adc4e6bdc",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 910,
+        "x": 700,
         "y": 1280,
         "wires": [
             [
                 "ee6f291fe5fdaf48"
-            ]
-        ]
-    },
-    {
-        "id": "ee6f291fe5fdaf48",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "3586158adc4e6bdc",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1060,
-        "y": 1280,
-        "wires": [
-            [
-                "e1fe623c53e2d3c7"
             ]
         ]
     },
@@ -2651,14 +2106,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"false\");"
             }
         ],
-        "x": 1360,
+        "x": 1200,
         "y": 1280,
         "wires": [
             [
@@ -2676,7 +2131,7 @@
         "links": [
             "e105bd0169f8594f"
         ],
-        "x": 1615,
+        "x": 1455,
         "y": 1280,
         "wires": []
     },
@@ -2689,7 +2144,7 @@
         "links": [
             "6bd43167ebdab4a5"
         ],
-        "x": 55,
+        "x": 65,
         "y": 1380,
         "wires": [
             [
@@ -2724,56 +2179,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 510,
-        "y": 1380,
-        "wires": [
-            [
-                "412e40a1d0c73679"
-            ]
-        ]
-    },
-    {
-        "id": "412e40a1d0c73679",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "2105812445ed3a70",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 910,
+        "x": 520,
         "y": 1380,
         "wires": [
             [
                 "8a0597533482f597"
-            ]
-        ]
-    },
-    {
-        "id": "8a0597533482f597",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "2105812445ed3a70",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1060,
-        "y": 1380,
-        "wires": [
-            [
-                "ec8e4eb2f2699656"
             ]
         ]
     },
@@ -2788,14 +2198,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"false\");"
             }
         ],
-        "x": 1310,
+        "x": 1150,
         "y": 1380,
         "wires": [
             [
@@ -2827,7 +2237,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 180,
+        "x": 190,
         "y": 1440,
         "wires": [
             [
@@ -2853,7 +2263,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 470,
+        "x": 480,
         "y": 1440,
         "wires": [
             [
@@ -2888,56 +2298,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 690,
-        "y": 1440,
-        "wires": [
-            [
-                "6edbdc605a0e44a0"
-            ]
-        ]
-    },
-    {
-        "id": "6edbdc605a0e44a0",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "2105812445ed3a70",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 910,
+        "x": 700,
         "y": 1440,
         "wires": [
             [
                 "133cb31a4dfacf9f"
-            ]
-        ]
-    },
-    {
-        "id": "133cb31a4dfacf9f",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "2105812445ed3a70",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1060,
-        "y": 1440,
-        "wires": [
-            [
-                "475c789fc3b07551"
             ]
         ]
     },
@@ -2952,14 +2317,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"true\");"
             }
         ],
-        "x": 1360,
+        "x": 1200,
         "y": 1440,
         "wires": [
             [
@@ -2991,7 +2356,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 180,
+        "x": 190,
         "y": 1500,
         "wires": [
             [
@@ -3017,7 +2382,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 470,
+        "x": 480,
         "y": 1500,
         "wires": [
             [
@@ -3052,56 +2417,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 690,
-        "y": 1500,
-        "wires": [
-            [
-                "826034ea8b7dcec8"
-            ]
-        ]
-    },
-    {
-        "id": "826034ea8b7dcec8",
-        "type": "change",
-        "z": "c8a723596530dedd",
-        "g": "2105812445ed3a70",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 910,
+        "x": 700,
         "y": 1500,
         "wires": [
             [
                 "1f1be164e001f572"
-            ]
-        ]
-    },
-    {
-        "id": "1f1be164e001f572",
-        "type": "xml",
-        "z": "c8a723596530dedd",
-        "g": "2105812445ed3a70",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1060,
-        "y": 1500,
-        "wires": [
-            [
-                "d9586510f3ff26a6"
             ]
         ]
     },
@@ -3116,14 +2436,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"false\");"
             }
         ],
-        "x": 1370,
+        "x": 1210,
         "y": 1500,
         "wires": [
             [
@@ -3141,7 +2461,7 @@
         "links": [
             "05c85f9272a3a3fd"
         ],
-        "x": 1615,
+        "x": 1455,
         "y": 1500,
         "wires": []
     },
@@ -3154,7 +2474,7 @@
         "links": [
             "9cc078676c185438"
         ],
-        "x": 235,
+        "x": 65,
         "y": 140,
         "wires": [
             [
@@ -3189,6 +2509,244 @@
         "x": 1235,
         "y": 1660,
         "wires": []
+    },
+    {
+        "id": "1f1be164e001f572",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 900,
+        "y": 1500,
+        "wires": [
+            [
+                "d9586510f3ff26a6"
+            ]
+        ]
+    },
+    {
+        "id": "133cb31a4dfacf9f",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 900,
+        "y": 1440,
+        "wires": [
+            [
+                "475c789fc3b07551"
+            ]
+        ]
+    },
+    {
+        "id": "8a0597533482f597",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "2105812445ed3a70",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 900,
+        "y": 1380,
+        "wires": [
+            [
+                "ec8e4eb2f2699656"
+            ]
+        ]
+    },
+    {
+        "id": "ee6f291fe5fdaf48",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 900,
+        "y": 1280,
+        "wires": [
+            [
+                "e1fe623c53e2d3c7"
+            ]
+        ]
+    },
+    {
+        "id": "2750ed48d3752580",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 900,
+        "y": 1220,
+        "wires": [
+            [
+                "ab2fa7f35fdc23cc"
+            ]
+        ]
+    },
+    {
+        "id": "61e143c697c15da3",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "3586158adc4e6bdc",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 900,
+        "y": 1160,
+        "wires": [
+            [
+                "85885447c8de1e98"
+            ]
+        ]
+    },
+    {
+        "id": "7685228b79653241",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 910,
+        "y": 1060,
+        "wires": [
+            [
+                "ac8dacbb0c56c1e9"
+            ]
+        ]
+    },
+    {
+        "id": "fa075a30c409fef6",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 910,
+        "y": 940,
+        "wires": [
+            [
+                "bfecbd12cba85045"
+            ]
+        ]
+    },
+    {
+        "id": "1486ec4621d009a1",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "d048657b1a949531",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 910,
+        "y": 820,
+        "wires": [
+            [
+                "1908db1aab4bcb64"
+            ]
+        ]
+    },
+    {
+        "id": "5db4c7a33b63cece",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "64ed17276cb6744f",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 910,
+        "y": 720,
+        "wires": [
+            [
+                "392c4130464ffa9a"
+            ]
+        ]
+    },
+    {
+        "id": "32a148fac23e0de3",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "64ed17276cb6744f",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 910,
+        "y": 600,
+        "wires": [
+            [
+                "a39a6d834c2d8773"
+            ]
+        ]
+    },
+    {
+        "id": "6295a1bba8ee32f8",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "64ed17276cb6744f",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 910,
+        "y": 480,
+        "wires": [
+            [
+                "7b988cb581838c28"
+            ]
+        ]
+    },
+    {
+        "id": "141f6679ad599c95",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "7b3d4ab5a74719d9",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 910,
+        "y": 380,
+        "wires": [
+            [
+                "9cac8d1a6a9985d0"
+            ]
+        ]
+    },
+    {
+        "id": "0c5db6aad7d7488b",
+        "type": "xml",
+        "z": "c8a723596530dedd",
+        "g": "7b3d4ab5a74719d9",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 910,
+        "y": 260,
+        "wires": [
+            [
+                "e93e04f660431a88"
+            ]
+        ]
     },
     {
         "id": "923248214c6d37d2",
@@ -3291,7 +2849,7 @@
         "y": 200,
         "wires": [
             [
-                "2f3198e329bde4e0"
+                "7f2afbee828d6102"
             ]
         ]
     },
@@ -3306,14 +2864,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
             },
             {
                 "name": "is cabinet door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"true\");"
             }
         ],
-        "x": 1440,
+        "x": 1280,
         "y": 200,
         "wires": [
             [
@@ -3352,7 +2910,7 @@
         "y": 320,
         "wires": [
             [
-                "3e4de2b4df163521"
+                "e9d21ea0bf7c95e3"
             ]
         ]
     },
@@ -3406,101 +2964,11 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1420,
+        "x": 1260,
         "y": 260,
         "wires": [
             [
                 "daa7572275bd0a90"
-            ]
-        ]
-    },
-    {
-        "id": "2f3198e329bde4e0",
-        "type": "change",
-        "z": "9e8caeae3c861ce5",
-        "g": "8847a3cdf5f621d1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 980,
-        "y": 200,
-        "wires": [
-            [
-                "05b6af6bd2ada1cf"
-            ]
-        ]
-    },
-    {
-        "id": "05b6af6bd2ada1cf",
-        "type": "xml",
-        "z": "9e8caeae3c861ce5",
-        "g": "8847a3cdf5f621d1",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1150,
-        "y": 200,
-        "wires": [
-            [
-                "91cab363ac626f14"
-            ]
-        ]
-    },
-    {
-        "id": "3e4de2b4df163521",
-        "type": "change",
-        "z": "9e8caeae3c861ce5",
-        "g": "8847a3cdf5f621d1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 980,
-        "y": 320,
-        "wires": [
-            [
-                "4d7dd483d6d90ac7"
-            ]
-        ]
-    },
-    {
-        "id": "4d7dd483d6d90ac7",
-        "type": "xml",
-        "z": "9e8caeae3c861ce5",
-        "g": "8847a3cdf5f621d1",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1150,
-        "y": 320,
-        "wires": [
-            [
-                "cb8cdc1a91440278"
             ]
         ]
     },
@@ -3515,14 +2983,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is Drop door openned",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"false\");"
             }
         ],
-        "x": 1450,
+        "x": 1290,
         "y": 320,
         "wires": [
             [
@@ -3561,52 +3029,7 @@
         "y": 80,
         "wires": [
             [
-                "189aaf61278ad8f2"
-            ]
-        ]
-    },
-    {
-        "id": "189aaf61278ad8f2",
-        "type": "change",
-        "z": "9e8caeae3c861ce5",
-        "g": "8847a3cdf5f621d1",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 980,
-        "y": 80,
-        "wires": [
-            [
-                "dcdf62e0cd20b180"
-            ]
-        ]
-    },
-    {
-        "id": "dcdf62e0cd20b180",
-        "type": "xml",
-        "z": "9e8caeae3c861ce5",
-        "g": "8847a3cdf5f621d1",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1150,
-        "y": 80,
-        "wires": [
-            [
-                "4e8bdce203ccd449"
+                "e4a414870334e783"
             ]
         ]
     },
@@ -3621,14 +3044,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is Drop door closed",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"false\");"
             }
         ],
-        "x": 1360,
+        "x": 1200,
         "y": 80,
         "wires": [
             [
@@ -3686,7 +3109,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1360,
+        "x": 1200,
         "y": 140,
         "wires": [
             [
@@ -3757,7 +3180,7 @@
             "a7cede1121e0c825",
             "32c0a1c231404385"
         ],
-        "x": 1745,
+        "x": 1575,
         "y": 320,
         "wires": []
     },
@@ -3826,52 +3249,7 @@
         "y": 440,
         "wires": [
             [
-                "dd20657c8d43c4b1"
-            ]
-        ]
-    },
-    {
-        "id": "dd20657c8d43c4b1",
-        "type": "change",
-        "z": "9e8caeae3c861ce5",
-        "g": "3811e7aa51a88781",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 440,
-        "wires": [
-            [
-                "a67cd6bab7f97048"
-            ]
-        ]
-    },
-    {
-        "id": "a67cd6bab7f97048",
-        "type": "xml",
-        "z": "9e8caeae3c861ce5",
-        "g": "3811e7aa51a88781",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1190,
-        "y": 440,
-        "wires": [
-            [
-                "4a5d515a197c3950"
+                "6996367648e376a6"
             ]
         ]
     },
@@ -3886,14 +3264,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is coinAcceptor mechanical fault set",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:mechanicalFault\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:mechanicalFault\"] === \"false\");"
             }
         ],
-        "x": 1440,
+        "x": 1260,
         "y": 440,
         "wires": [
             [
@@ -3996,52 +3374,7 @@
         "y": 500,
         "wires": [
             [
-                "5edfdd1cec0f0633"
-            ]
-        ]
-    },
-    {
-        "id": "5edfdd1cec0f0633",
-        "type": "change",
-        "z": "9e8caeae3c861ce5",
-        "g": "3811e7aa51a88781",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 500,
-        "wires": [
-            [
-                "5a21c2dfb35bdf0d"
-            ]
-        ]
-    },
-    {
-        "id": "5a21c2dfb35bdf0d",
-        "type": "xml",
-        "z": "9e8caeae3c861ce5",
-        "g": "3811e7aa51a88781",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1190,
-        "y": 500,
-        "wires": [
-            [
-                "dacff68d03623013"
+                "afd3ba730e3d1583"
             ]
         ]
     },
@@ -4056,14 +3389,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
             },
             {
                 "name": "is coinAcceptor Mechanical fault set",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:mechanicalFault\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:mechanicalFault\"] === \"true\");"
             }
         ],
-        "x": 1480,
+        "x": 1300,
         "y": 500,
         "wires": [
             [
@@ -4166,52 +3499,7 @@
         "y": 560,
         "wires": [
             [
-                "94361153014b9b23"
-            ]
-        ]
-    },
-    {
-        "id": "94361153014b9b23",
-        "type": "change",
-        "z": "9e8caeae3c861ce5",
-        "g": "3811e7aa51a88781",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1040,
-        "y": 560,
-        "wires": [
-            [
-                "8be097993d830ecb"
-            ]
-        ]
-    },
-    {
-        "id": "8be097993d830ecb",
-        "type": "xml",
-        "z": "9e8caeae3c861ce5",
-        "g": "3811e7aa51a88781",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1190,
-        "y": 560,
-        "wires": [
-            [
-                "61af1ddaac701986"
+                "a508fd050f556345"
             ]
         ]
     },
@@ -4226,14 +3514,14 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             },
             {
                 "name": "is mechincal fault cleared",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:mechanicalFault\"] === \"false\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:mechanicalFault\"] === \"false\");"
             }
         ],
-        "x": 1490,
+        "x": 1310,
         "y": 560,
         "wires": [
             [
@@ -4251,7 +3539,7 @@
         "links": [
             "c195925636a14386"
         ],
-        "x": 1745,
+        "x": 1575,
         "y": 560,
         "wires": []
     },
@@ -4426,52 +3714,7 @@
         "y": 680,
         "wires": [
             [
-                "6bfec6d2bba40b50"
-            ]
-        ]
-    },
-    {
-        "id": "6bfec6d2bba40b50",
-        "type": "change",
-        "z": "9e8caeae3c861ce5",
-        "g": "1b45323fc883f949",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.result.device_status",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 980,
-        "y": 680,
-        "wires": [
-            [
-                "01e3af255703b017"
-            ]
-        ]
-    },
-    {
-        "id": "01e3af255703b017",
-        "type": "xml",
-        "z": "9e8caeae3c861ce5",
-        "g": "1b45323fc883f949",
-        "name": "",
-        "property": "payload",
-        "attr": "",
-        "chr": "",
-        "x": 1130,
-        "y": 680,
-        "wires": [
-            [
-                "fe475e6e355248f2"
+                "d438e1e12a759299"
             ]
         ]
     },
@@ -4486,10 +3729,10 @@
         "tests": [
             {
                 "name": "Is device EGM disabled",
-                "expression": "assert.isTrue(msg.payload[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             }
         ],
-        "x": 1330,
+        "x": 1210,
         "y": 680,
         "wires": [
             [
@@ -4547,7 +3790,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1380,
+        "x": 1260,
         "y": 740,
         "wires": [
             [
@@ -4591,7 +3834,7 @@
         "links": [
             "6b4a550b5f793204"
         ],
-        "x": 1745,
+        "x": 1575,
         "y": 920,
         "wires": []
     },
@@ -4662,7 +3905,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1370,
+        "x": 1250,
         "y": 800,
         "wires": [
             [
@@ -4756,7 +3999,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1000\");"
             }
         ],
-        "x": 1420,
+        "x": 1300,
         "y": 860,
         "wires": [
             [
@@ -4778,11 +4021,130 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1420,
+        "x": 1300,
         "y": 920,
         "wires": [
             [
                 "d5dd1f3cb7d1cf9f"
+            ]
+        ]
+    },
+    {
+        "id": "e4a414870334e783",
+        "type": "xml",
+        "z": "9e8caeae3c861ce5",
+        "g": "8847a3cdf5f621d1",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 990,
+        "y": 80,
+        "wires": [
+            [
+                "4e8bdce203ccd449"
+            ]
+        ]
+    },
+    {
+        "id": "7f2afbee828d6102",
+        "type": "xml",
+        "z": "9e8caeae3c861ce5",
+        "g": "8847a3cdf5f621d1",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 990,
+        "y": 200,
+        "wires": [
+            [
+                "91cab363ac626f14"
+            ]
+        ]
+    },
+    {
+        "id": "e9d21ea0bf7c95e3",
+        "type": "xml",
+        "z": "9e8caeae3c861ce5",
+        "g": "8847a3cdf5f621d1",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 990,
+        "y": 320,
+        "wires": [
+            [
+                "cb8cdc1a91440278"
+            ]
+        ]
+    },
+    {
+        "id": "6996367648e376a6",
+        "type": "xml",
+        "z": "9e8caeae3c861ce5",
+        "g": "3811e7aa51a88781",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1010,
+        "y": 440,
+        "wires": [
+            [
+                "4a5d515a197c3950"
+            ]
+        ]
+    },
+    {
+        "id": "afd3ba730e3d1583",
+        "type": "xml",
+        "z": "9e8caeae3c861ce5",
+        "g": "3811e7aa51a88781",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1010,
+        "y": 500,
+        "wires": [
+            [
+                "dacff68d03623013"
+            ]
+        ]
+    },
+    {
+        "id": "a508fd050f556345",
+        "type": "xml",
+        "z": "9e8caeae3c861ce5",
+        "g": "3811e7aa51a88781",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1010,
+        "y": 560,
+        "wires": [
+            [
+                "61af1ddaac701986"
+            ]
+        ]
+    },
+    {
+        "id": "d438e1e12a759299",
+        "type": "xml",
+        "z": "9e8caeae3c861ce5",
+        "g": "1b45323fc883f949",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1010,
+        "y": 680,
+        "wires": [
+            [
+                "fe475e6e355248f2"
             ]
         ]
     },
