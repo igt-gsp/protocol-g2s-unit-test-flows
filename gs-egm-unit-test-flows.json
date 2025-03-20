@@ -548,13 +548,13 @@
         "name": "Print Results",
         "active": true,
         "tosidebar": true,
-        "console": false,
+        "console": true,
         "tostatus": false,
         "complete": "payload",
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 470,
+        "x": 480,
         "y": 1620,
         "wires": []
     },
@@ -788,7 +788,8 @@
         "y": 1660,
         "wires": [
             [
-                "f6b5801988103ab8"
+                "f6b5801988103ab8",
+                "0d3d2b1d1e90e886"
             ]
         ]
     },
@@ -2749,6 +2750,22 @@
         ]
     },
     {
+        "id": "0d3d2b1d1e90e886",
+        "type": "debug",
+        "z": "c8a723596530dedd",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 1740,
+        "wires": []
+    },
+    {
         "id": "923248214c6d37d2",
         "type": "g2sAction",
         "z": "9e8caeae3c861ce5",
@@ -3567,13 +3584,13 @@
         "name": "Print Results",
         "active": true,
         "tosidebar": true,
-        "console": false,
+        "console": true,
         "tostatus": false,
         "complete": "payload",
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 470,
+        "x": 480,
         "y": 1040,
         "wires": []
     },
