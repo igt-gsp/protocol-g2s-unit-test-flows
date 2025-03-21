@@ -51,12 +51,11 @@
             "9409d78ed6221420",
             "141f6679ad599c95",
             "0c5db6aad7d7488b",
-            "36656da694b19cbf",
             "1d545a0d4673d897"
         ],
         "x": 24,
         "y": 79,
-        "w": 1502,
+        "w": 1482,
         "h": 342
     },
     {
@@ -111,7 +110,7 @@
         ],
         "x": 24,
         "y": 1579,
-        "w": 932,
+        "w": 972,
         "h": 122
     },
     {
@@ -175,7 +174,7 @@
         ],
         "x": 24,
         "y": 1119,
-        "w": 1472,
+        "w": 1482,
         "h": 202
     },
     {
@@ -205,7 +204,7 @@
         ],
         "x": 24,
         "y": 1339,
-        "w": 1472,
+        "w": 1482,
         "h": 202
     },
     {
@@ -290,7 +289,7 @@
         ],
         "x": 24,
         "y": 999,
-        "w": 932,
+        "w": 1002,
         "h": 122
     },
     {
@@ -340,6 +339,36 @@
         "id": "a03b6f1d267925ab",
         "type": "test-collection",
         "name": "G2S_coinAcceptor_tests"
+    },
+    {
+        "id": "58883ff232c48830",
+        "type": "test-collection",
+        "name": "Cabinet Door Access",
+        "parentCollection": "f1af7bf27170a115"
+    },
+    {
+        "id": "f71f254a625acbde",
+        "type": "test-collection",
+        "name": "Logic Door Access",
+        "parentCollection": "f1af7bf27170a115"
+    },
+    {
+        "id": "00311fc0cc5c05d5",
+        "type": "test-collection",
+        "name": "Auxilary Door Access",
+        "parentCollection": "f1af7bf27170a115"
+    },
+    {
+        "id": "d52491f8a090655f",
+        "type": "test-collection",
+        "name": "Hard Meter Disconnected",
+        "parentCollection": "58883ff232c48830"
+    },
+    {
+        "id": "f3ef5223c7dfc81b",
+        "type": "test-collection",
+        "name": "Service Lamp Activated",
+        "parentCollection": "f1af7bf27170a115"
     },
     {
         "id": "e837e1483f0a6f4f",
@@ -487,7 +516,7 @@
         "z": "c8a723596530dedd",
         "g": "7b3d4ab5a74719d9",
         "name": "Test Cabinet Device Status After Cabinet Door Open",
-        "collection": "f1af7bf27170a115",
+        "collection": "58883ff232c48830",
         "timer": "",
         "tests": [
             {
@@ -602,7 +631,7 @@
         "z": "c8a723596530dedd",
         "g": "7b3d4ab5a74719d9",
         "name": "Test Cabinet Meters After Cabinet Door Open",
-        "collection": "f1af7bf27170a115",
+        "collection": "58883ff232c48830",
         "timer": "",
         "tests": [
             {
@@ -624,7 +653,7 @@
         "z": "c8a723596530dedd",
         "g": "7b3d4ab5a74719d9",
         "name": "Test Cabinet Device Status After Cabinet Door Closed",
-        "collection": "f1af7bf27170a115",
+        "collection": "58883ff232c48830",
         "timer": "",
         "tests": [
             {
@@ -693,8 +722,7 @@
         "y": 140,
         "wires": [
             [
-                "458ec5089e3271dd",
-                "36656da694b19cbf"
+                "458ec5089e3271dd"
             ]
         ]
     },
@@ -704,7 +732,7 @@
         "z": "c8a723596530dedd",
         "g": "7b3d4ab5a74719d9",
         "name": "Test Initial Cabinet Door Status",
-        "collection": "f1af7bf27170a115",
+        "collection": "58883ff232c48830",
         "timer": "",
         "tests": [
             {
@@ -766,7 +794,7 @@
         "z": "c8a723596530dedd",
         "g": "7b3d4ab5a74719d9",
         "name": "Test Initial Cabinet Door Meters",
-        "collection": "f1af7bf27170a115",
+        "collection": "58883ff232c48830",
         "timer": "",
         "tests": [
             {
@@ -788,12 +816,11 @@
         "z": "c8a723596530dedd",
         "g": "94e3d67e4fa53b9d",
         "name": "",
-        "x": 490,
+        "x": 520,
         "y": 1660,
         "wires": [
             [
-                "f6b5801988103ab8",
-                "0d3d2b1d1e90e886"
+                "f6b5801988103ab8"
             ]
         ]
     },
@@ -813,7 +840,7 @@
         "y": 1660,
         "wires": [
             [
-                "fb0c307d04664e11"
+                "0e3f81eb1e6ea134"
             ]
         ]
     },
@@ -980,7 +1007,7 @@
         "z": "c8a723596530dedd",
         "g": "64ed17276cb6744f",
         "name": "Test Cabinet Device Status After Logic Door Open",
-        "collection": "f1af7bf27170a115",
+        "collection": "f71f254a625acbde",
         "timer": "",
         "tests": [
             {
@@ -1077,7 +1104,7 @@
         "z": "c8a723596530dedd",
         "g": "64ed17276cb6744f",
         "name": "Test Cabinet Meters After Logic Door Open",
-        "collection": "f1af7bf27170a115",
+        "collection": "f71f254a625acbde",
         "timer": "",
         "tests": [
             {
@@ -1099,7 +1126,7 @@
         "z": "c8a723596530dedd",
         "g": "64ed17276cb6744f",
         "name": "Test Cabinet Device Status After Logic Door Closed",
-        "collection": "f1af7bf27170a115",
+        "collection": "f71f254a625acbde",
         "timer": "",
         "tests": [
             {
@@ -1160,7 +1187,7 @@
         "z": "c8a723596530dedd",
         "g": "64ed17276cb6744f",
         "name": "Test Initial Cabinet Logic Door Status",
-        "collection": "f1af7bf27170a115",
+        "collection": "f71f254a625acbde",
         "timer": "",
         "tests": [
             {
@@ -1222,7 +1249,7 @@
         "z": "c8a723596530dedd",
         "g": "64ed17276cb6744f",
         "name": "Test Initial Logic Door Meters",
-        "collection": "f1af7bf27170a115",
+        "collection": "f71f254a625acbde",
         "timer": "",
         "tests": [
             {
@@ -1463,7 +1490,7 @@
         "z": "c8a723596530dedd",
         "g": "d048657b1a949531",
         "name": "Test Cabinet Device Status After Auxilary Door Open",
-        "collection": "f1af7bf27170a115",
+        "collection": "00311fc0cc5c05d5",
         "timer": "",
         "tests": [
             {
@@ -1560,7 +1587,7 @@
         "z": "c8a723596530dedd",
         "g": "d048657b1a949531",
         "name": "Test Cabinet Meters After Auxilary Door Open",
-        "collection": "f1af7bf27170a115",
+        "collection": "00311fc0cc5c05d5",
         "timer": "",
         "tests": [
             {
@@ -1582,7 +1609,7 @@
         "z": "c8a723596530dedd",
         "g": "d048657b1a949531",
         "name": "Test Cabinet Device Status After Auxilary Door Closed",
-        "collection": "f1af7bf27170a115",
+        "collection": "00311fc0cc5c05d5",
         "timer": "",
         "tests": [
             {
@@ -1643,7 +1670,7 @@
         "z": "c8a723596530dedd",
         "g": "d048657b1a949531",
         "name": "Test Initial Cabinet Auxilary Door Status",
-        "collection": "f1af7bf27170a115",
+        "collection": "00311fc0cc5c05d5",
         "timer": "",
         "tests": [
             {
@@ -1705,7 +1732,7 @@
         "z": "c8a723596530dedd",
         "g": "d048657b1a949531",
         "name": "Test Initial Auxilary Door Meters",
-        "collection": "f1af7bf27170a115",
+        "collection": "00311fc0cc5c05d5",
         "timer": "",
         "tests": [
             {
@@ -1862,7 +1889,7 @@
         "z": "c8a723596530dedd",
         "g": "3586158adc4e6bdc",
         "name": "Test Initial Cabinet Hard Meter Status",
-        "collection": "f1af7bf27170a115",
+        "collection": "d52491f8a090655f",
         "timer": "",
         "tests": [
             {
@@ -1984,7 +2011,7 @@
         "z": "c8a723596530dedd",
         "g": "3586158adc4e6bdc",
         "name": "Test Cabinet Device Status After Hard Meter Disconnect",
-        "collection": "f1af7bf27170a115",
+        "collection": "d52491f8a090655f",
         "timer": "",
         "tests": [
             {
@@ -2106,7 +2133,7 @@
         "z": "c8a723596530dedd",
         "g": "3586158adc4e6bdc",
         "name": "Test Cabinet Device Status After Hard Meter Reconnect",
-        "collection": "f1af7bf27170a115",
+        "collection": "d52491f8a090655f",
         "timer": "",
         "tests": [
             {
@@ -2136,7 +2163,7 @@
         "links": [
             "e105bd0169f8594f"
         ],
-        "x": 1455,
+        "x": 1465,
         "y": 1280,
         "wires": []
     },
@@ -2198,7 +2225,7 @@
         "z": "c8a723596530dedd",
         "g": "2105812445ed3a70",
         "name": "Test Initial Cabinet Service Lamp Status",
-        "collection": "f1af7bf27170a115",
+        "collection": "f3ef5223c7dfc81b",
         "timer": "",
         "tests": [
             {
@@ -2317,7 +2344,7 @@
         "z": "c8a723596530dedd",
         "g": "2105812445ed3a70",
         "name": "Test Cabinet Device Status After Service Lamp Activated",
-        "collection": "f1af7bf27170a115",
+        "collection": "f3ef5223c7dfc81b",
         "timer": "",
         "tests": [
             {
@@ -2436,7 +2463,7 @@
         "z": "c8a723596530dedd",
         "g": "2105812445ed3a70",
         "name": "Test Cabinet Device Status After Service Lamp Deactivated",
-        "collection": "f1af7bf27170a115",
+        "collection": "f3ef5223c7dfc81b",
         "timer": "",
         "tests": [
             {
@@ -2466,7 +2493,7 @@
         "links": [
             "05c85f9272a3a3fd"
         ],
-        "x": 1455,
+        "x": 1465,
         "y": 1500,
         "wires": []
     },
@@ -2508,10 +2535,9 @@
         "name": "Cabinet Tests Done",
         "mode": "link",
         "links": [
-            "fa3079900eb01c2d",
             "b9273549ac917b61"
         ],
-        "x": 915,
+        "x": 955,
         "y": 1660,
         "wires": []
     },
@@ -2754,40 +2780,6 @@
         ]
     },
     {
-        "id": "0d3d2b1d1e90e886",
-        "type": "debug",
-        "z": "c8a723596530dedd",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 800,
-        "y": 1740,
-        "wires": []
-    },
-    {
-        "id": "36656da694b19cbf",
-        "type": "debug",
-        "z": "c8a723596530dedd",
-        "g": "7b3d4ab5a74719d9",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1410,
-        "y": 140,
-        "wires": []
-    },
-    {
         "id": "1d545a0d4673d897",
         "type": "debug",
         "z": "c8a723596530dedd",
@@ -2804,6 +2796,38 @@
         "x": 750,
         "y": 120,
         "wires": []
+    },
+    {
+        "id": "0e3f81eb1e6ea134",
+        "type": "test-exporter-mocha",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "x": 500,
+        "y": 1740,
+        "wires": [
+            [
+                "585b6a3d548d31ab"
+            ]
+        ]
+    },
+    {
+        "id": "585b6a3d548d31ab",
+        "type": "file",
+        "z": "c8a723596530dedd",
+        "name": "",
+        "filename": "cabinet_test_report.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 750,
+        "y": 1740,
+        "wires": [
+            [
+                "fb0c307d04664e11"
+            ]
+        ]
     },
     {
         "id": "923248214c6d37d2",
@@ -3234,8 +3258,7 @@
         "name": "Drop Door Out",
         "mode": "link",
         "links": [
-            "a7cede1121e0c825",
-            "32c0a1c231404385"
+            "a7cede1121e0c825"
         ],
         "x": 1575,
         "y": 320,
@@ -3664,7 +3687,7 @@
         "y": 1080,
         "wires": [
             [
-                "127fe2fdf8bc0482"
+                "e8cf65ebc49f7210"
             ]
         ]
     },
@@ -3690,12 +3713,12 @@
         "type": "link out",
         "z": "9e8caeae3c861ce5",
         "g": "c79d08c7bae299cb",
-        "name": "Cabinet Tests Done",
+        "name": "Coin Acceptor Tests Done",
         "mode": "link",
         "links": [
             "b84bb3ebfcf0769a"
         ],
-        "x": 915,
+        "x": 985,
         "y": 1080,
         "wires": []
     },
@@ -4202,6 +4225,38 @@
         "wires": [
             [
                 "fe475e6e355248f2"
+            ]
+        ]
+    },
+    {
+        "id": "e8cf65ebc49f7210",
+        "type": "test-exporter-mocha",
+        "z": "9e8caeae3c861ce5",
+        "name": "",
+        "x": 500,
+        "y": 1160,
+        "wires": [
+            [
+                "4f258396c3012fcf"
+            ]
+        ]
+    },
+    {
+        "id": "4f258396c3012fcf",
+        "type": "file",
+        "z": "9e8caeae3c861ce5",
+        "name": "",
+        "filename": "coinAcceptor_test_report.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 770,
+        "y": 1160,
+        "wires": [
+            [
+                "127fe2fdf8bc0482"
             ]
         ]
     },
