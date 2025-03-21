@@ -471,7 +471,7 @@
         "wires": [
             [
                 "4a30ebe37f4db4c4",
-                "0e3f81eb1e6ea134"
+                "0d43fcfa9ddc9da2"
             ]
         ]
     },
@@ -839,7 +839,9 @@
         "x": 750,
         "y": 1660,
         "wires": [
-            []
+            [
+                "fb0c307d04664e11"
+            ]
         ]
     },
     {
@@ -2796,54 +2798,6 @@
         "wires": []
     },
     {
-        "id": "0e3f81eb1e6ea134",
-        "type": "test-exporter-mocha",
-        "z": "c8a723596530dedd",
-        "name": "",
-        "x": 500,
-        "y": 1740,
-        "wires": [
-            [
-                "585b6a3d548d31ab"
-            ]
-        ]
-    },
-    {
-        "id": "585b6a3d548d31ab",
-        "type": "file",
-        "z": "c8a723596530dedd",
-        "name": "",
-        "filename": "cabinet_test_report.json",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 750,
-        "y": 1740,
-        "wires": [
-            [
-                "fb0c307d04664e11"
-            ]
-        ]
-    },
-    {
-        "id": "9e68fdb0042b447b",
-        "type": "debug",
-        "z": "c8a723596530dedd",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1020,
-        "y": 1740,
-        "wires": []
-    },
-    {
         "id": "923248214c6d37d2",
         "type": "g2sAction",
         "z": "9e8caeae3c861ce5",
@@ -3649,7 +3603,7 @@
         "wires": [
             [
                 "f33a1550474fb659",
-                "e8cf65ebc49f7210"
+                "14f97943c484e1c5"
             ]
         ]
     },
@@ -3700,7 +3654,9 @@
         "x": 760,
         "y": 1080,
         "wires": [
-            []
+            [
+                "127fe2fdf8bc0482"
+            ]
         ]
     },
     {
@@ -4237,38 +4193,6 @@
         "wires": [
             [
                 "fe475e6e355248f2"
-            ]
-        ]
-    },
-    {
-        "id": "e8cf65ebc49f7210",
-        "type": "test-exporter-mocha",
-        "z": "9e8caeae3c861ce5",
-        "name": "",
-        "x": 500,
-        "y": 1160,
-        "wires": [
-            [
-                "4f258396c3012fcf"
-            ]
-        ]
-    },
-    {
-        "id": "4f258396c3012fcf",
-        "type": "file",
-        "z": "9e8caeae3c861ce5",
-        "name": "",
-        "filename": "coinAcceptor_test_report.json",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 770,
-        "y": 1160,
-        "wires": [
-            [
-                "127fe2fdf8bc0482"
             ]
         ]
     },
