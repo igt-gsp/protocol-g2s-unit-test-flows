@@ -1,5 +1,13 @@
 [
     {
+        "id": "42bb90cce19cc72e",
+        "type": "tab",
+        "label": "Startup",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "c8a723596530dedd",
         "type": "tab",
         "label": "Cabinet Class",
@@ -11,6 +19,14 @@
         "id": "9e8caeae3c861ce5",
         "type": "tab",
         "label": "Coin Acceptor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c94aadc737aeba2c",
+        "type": "tab",
+        "label": "Note Acceptor",
         "disabled": false,
         "info": "",
         "env": []
@@ -50,13 +66,12 @@
             "f71fde7872cdcc13",
             "9409d78ed6221420",
             "141f6679ad599c95",
-            "0c5db6aad7d7488b",
-            "1d545a0d4673d897"
+            "0c5db6aad7d7488b"
         ],
-        "x": 24,
-        "y": 79,
+        "x": 124,
+        "y": 59,
         "w": 1482,
-        "h": 342
+        "h": 322
     },
     {
         "id": "64ed17276cb6744f",
@@ -87,8 +102,8 @@
             "32a148fac23e0de3",
             "6295a1bba8ee32f8"
         ],
-        "x": 24,
-        "y": 439,
+        "x": 124,
+        "y": 419,
         "w": 1482,
         "h": 322
     },
@@ -108,7 +123,7 @@
             "05c85f9272a3a3fd",
             "fb0c307d04664e11"
         ],
-        "x": 24,
+        "x": 124,
         "y": 1579,
         "w": 972,
         "h": 122
@@ -142,7 +157,7 @@
             "fa075a30c409fef6",
             "1486ec4621d009a1"
         ],
-        "x": 24,
+        "x": 124,
         "y": 779,
         "w": 1482,
         "h": 322
@@ -172,7 +187,7 @@
             "2750ed48d3752580",
             "61e143c697c15da3"
         ],
-        "x": 24,
+        "x": 124,
         "y": 1119,
         "w": 1482,
         "h": 202
@@ -202,7 +217,7 @@
             "133cb31a4dfacf9f",
             "8a0597533482f597"
         ],
-        "x": 24,
+        "x": 124,
         "y": 1339,
         "w": 1482,
         "h": 202
@@ -236,7 +251,7 @@
             "7f2afbee828d6102",
             "e9d21ea0bf7c95e3"
         ],
-        "x": 24,
+        "x": 124,
         "y": 39,
         "w": 1592,
         "h": 322
@@ -266,7 +281,7 @@
             "afd3ba730e3d1583",
             "a508fd050f556345"
         ],
-        "x": 24,
+        "x": 124,
         "y": 399,
         "w": 1592,
         "h": 202
@@ -287,7 +302,7 @@
             "6b4a550b5f793204",
             "127fe2fdf8bc0482"
         ],
-        "x": 24,
+        "x": 124,
         "y": 999,
         "w": 1002,
         "h": 122
@@ -317,10 +332,137 @@
             "9c5c5faa0343ce53",
             "d438e1e12a759299"
         ],
-        "x": 24,
+        "x": 124,
         "y": 639,
         "w": 1592,
         "h": 322
+    },
+    {
+        "id": "cb9545e6214ed6fd",
+        "type": "group",
+        "z": "c94aadc737aeba2c",
+        "name": "Note Acceptor Drop Door",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "58f7b22817a92324",
+            "1ce12cb42038328f",
+            "0d3adf580261394c",
+            "768189a13fc3bff6",
+            "75dc294216c855cb",
+            "505715923dac22f6",
+            "4455a3bd356ca237",
+            "c1ac62f77cfb5ec9",
+            "6868d0deca8d6363",
+            "e02852fa89b2030b",
+            "6a51a231134d40c7",
+            "2bdab3387bf08c18",
+            "b7a47ad01afc35fc",
+            "c0b1091bb8e3c23b",
+            "afdcf98520fc41c4",
+            "0f92a0516dbb8d6a",
+            "2c5e6b783e7b3af1",
+            "362c39a76c4dba05",
+            "5c43ff85a57d6fb0"
+        ],
+        "x": 124,
+        "y": 39,
+        "w": 1592,
+        "h": 322
+    },
+    {
+        "id": "d0194652c91bd897",
+        "type": "group",
+        "z": "c94aadc737aeba2c",
+        "name": "Note Acceptor Stacker",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7234841a8de38fb6",
+            "9de735c760016252",
+            "28751f7c49efcd93",
+            "bc9d2ae06b5d32be",
+            "a61fe4044f35dfaf",
+            "def3a9d146409bc8",
+            "085bf9a23e8557a0",
+            "5aa491c8df2c64ab",
+            "fa86769796f89944",
+            "211a58a50228dfd0",
+            "eabf0ce008c25bde",
+            "c1594edfbb3cb6b8",
+            "a22a73293af7f1dd",
+            "f5299a83f5970e87",
+            "1c2fdd8ca60a996d",
+            "536b53d98318a0a3",
+            "46a97351b25c2c9d",
+            "d7dcacd3a3fa68dc",
+            "7fdc8775cd6a70ea"
+        ],
+        "x": 124,
+        "y": 379,
+        "w": 1592,
+        "h": 322
+    },
+    {
+        "id": "dd27383e724564fc",
+        "type": "group",
+        "z": "c94aadc737aeba2c",
+        "name": "Complete Test",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ec01898c4f66f962",
+            "1aeba4d89c809169",
+            "41bf8e5904c4be34",
+            "f73dac472cfbddf2",
+            "7c182c8acca29241",
+            "9bacf1bb4d5e4742"
+        ],
+        "x": 124,
+        "y": 1219,
+        "w": 1002,
+        "h": 122
+    },
+    {
+        "id": "691fa100c9f8807d",
+        "type": "group",
+        "z": "c94aadc737aeba2c",
+        "name": "Note Escrowed/Stacked",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3b639736e6168d91",
+            "d95a6db105d570b5",
+            "4e1d11a8c27ea6cd",
+            "3b8a480e6f60cbbe",
+            "a3a75b42e6a54beb",
+            "de50e821346683af",
+            "c937ce47137e3e8d",
+            "49693658c6b7b16b",
+            "6fce62edaf418e5a",
+            "552b950beff93c15",
+            "6348ceb928692f9b",
+            "8995df656bd221a7",
+            "a30541ad2dcab39b",
+            "5988af46acc40a29",
+            "630120a12693f10e",
+            "6df984f36c43152b",
+            "3ad7c87b27a381ec",
+            "2d1d8bec2fb0dfd6",
+            "9b08cc2393e68c6a",
+            "8aca7c1f8d65b77f",
+            "0de9832f73171653",
+            "4e4ad42b91412069",
+            "0d638d8d9d6aa0f4"
+        ],
+        "x": 124,
+        "y": 739,
+        "w": 1592,
+        "h": 442
     },
     {
         "id": "12817824be111c81",
@@ -371,23 +513,42 @@
         "parentCollection": "f1af7bf27170a115"
     },
     {
+        "id": "39025918ae2b543b",
+        "type": "test-collection",
+        "name": "G2S_noteAcceptor_tests",
+        "parentCollection": "f1af7bf27170a115"
+    },
+    {
         "id": "e837e1483f0a6f4f",
         "type": "inject",
-        "z": "c8a723596530dedd",
+        "z": "42bb90cce19cc72e",
         "name": "Autostart",
         "props": [],
         "repeat": "",
         "crontab": "",
-        "once": true,
+        "once": false,
         "onceDelay": "30",
         "topic": "",
-        "x": 100,
+        "x": 140,
         "y": 60,
         "wires": [
             [
                 "9cc078676c185438"
             ]
         ]
+    },
+    {
+        "id": "9cc078676c185438",
+        "type": "link out",
+        "z": "42bb90cce19cc72e",
+        "name": "Auto Start",
+        "mode": "link",
+        "links": [
+            "9409d78ed6221420"
+        ],
+        "x": 295,
+        "y": 60,
+        "wires": []
     },
     {
         "id": "f485c45069ed0f1c",
@@ -416,8 +577,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 180,
-        "y": 260,
+        "x": 280,
+        "y": 220,
         "wires": [
             [
                 "134ffa415bfeef39"
@@ -451,8 +612,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 180,
-        "y": 380,
+        "x": 280,
+        "y": 340,
         "wires": [
             [
                 "467497a71999d28d"
@@ -466,7 +627,7 @@
         "g": "94e3d67e4fa53b9d",
         "name": "",
         "collection": "f1af7bf27170a115",
-        "x": 270,
+        "x": 370,
         "y": 1620,
         "wires": [
             [
@@ -502,8 +663,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 660,
-        "y": 260,
+        "x": 760,
+        "y": 220,
         "wires": [
             [
                 "0c5db6aad7d7488b"
@@ -528,8 +689,8 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"true\");"
             }
         ],
-        "x": 1200,
-        "y": 260,
+        "x": 1300,
+        "y": 220,
         "wires": [
             [
                 "a66069d6ed48cd33"
@@ -563,8 +724,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 660,
-        "y": 380,
+        "x": 760,
+        "y": 340,
         "wires": [
             [
                 "141f6679ad599c95"
@@ -585,7 +746,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 480,
+        "x": 580,
         "y": 1620,
         "wires": []
     },
@@ -617,8 +778,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 600,
-        "y": 320,
+        "x": 700,
+        "y": 280,
         "wires": [
             [
                 "ca9ae338d80ec7da"
@@ -639,8 +800,8 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1170,
-        "y": 320,
+        "x": 1270,
+        "y": 280,
         "wires": [
             [
                 "e646d899bcfefcea"
@@ -665,8 +826,8 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1200,
-        "y": 380,
+        "x": 1300,
+        "y": 340,
         "wires": [
             [
                 "f71fde7872cdcc13"
@@ -700,12 +861,11 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 520,
-        "y": 140,
+        "x": 620,
+        "y": 100,
         "wires": [
             [
-                "7039332cc2eeb333",
-                "1d545a0d4673d897"
+                "7039332cc2eeb333"
             ]
         ]
     },
@@ -718,8 +878,8 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 910,
-        "y": 140,
+        "x": 1010,
+        "y": 100,
         "wires": [
             [
                 "458ec5089e3271dd"
@@ -744,8 +904,8 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:cabinetDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1130,
-        "y": 140,
+        "x": 1230,
+        "y": 100,
         "wires": [
             [
                 "5e8772429633f008"
@@ -780,8 +940,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 600,
-        "y": 200,
+        "x": 700,
+        "y": 160,
         "wires": [
             [
                 "0e8b10a042468cfa"
@@ -802,8 +962,8 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1130,
-        "y": 200,
+        "x": 1230,
+        "y": 160,
         "wires": [
             [
                 "f485c45069ed0f1c"
@@ -816,7 +976,7 @@
         "z": "c8a723596530dedd",
         "g": "94e3d67e4fa53b9d",
         "name": "",
-        "x": 520,
+        "x": 620,
         "y": 1660,
         "wires": [
             [
@@ -836,7 +996,7 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 750,
+        "x": 850,
         "y": 1660,
         "wires": [
             [
@@ -862,8 +1022,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 430,
-        "y": 260,
+        "x": 530,
+        "y": 220,
         "wires": [
             [
                 "c946a56504ad6ee6"
@@ -888,8 +1048,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 430,
-        "y": 380,
+        "x": 530,
+        "y": 340,
         "wires": [
             [
                 "570e25c0de45fff1"
@@ -923,8 +1083,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 170,
-        "y": 600,
+        "x": 270,
+        "y": 580,
         "wires": [
             [
                 "c41f6573c0c9efe8"
@@ -958,8 +1118,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 170,
-        "y": 720,
+        "x": 270,
+        "y": 700,
         "wires": [
             [
                 "d00c5789d0c530c9"
@@ -993,8 +1153,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 660,
-        "y": 600,
+        "x": 760,
+        "y": 580,
         "wires": [
             [
                 "32a148fac23e0de3"
@@ -1019,8 +1179,8 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:logicDoorOpen\"] === \"true\");"
             }
         ],
-        "x": 1190,
-        "y": 600,
+        "x": 1290,
+        "y": 580,
         "wires": [
             [
                 "8e3bdffe687d1df4"
@@ -1054,8 +1214,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 660,
-        "y": 720,
+        "x": 760,
+        "y": 700,
         "wires": [
             [
                 "5db4c7a33b63cece"
@@ -1090,8 +1250,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 590,
-        "y": 660,
+        "x": 690,
+        "y": 640,
         "wires": [
             [
                 "c2e71b791cae974d"
@@ -1112,8 +1272,8 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1170,
-        "y": 660,
+        "x": 1270,
+        "y": 640,
         "wires": [
             [
                 "21f5453807b6ec63"
@@ -1138,8 +1298,8 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:logicDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1190,
-        "y": 720,
+        "x": 1290,
+        "y": 700,
         "wires": [
             [
                 "a695e064d01a54ff"
@@ -1173,8 +1333,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 520,
-        "y": 480,
+        "x": 620,
+        "y": 460,
         "wires": [
             [
                 "6295a1bba8ee32f8"
@@ -1199,8 +1359,8 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:logicDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1150,
-        "y": 480,
+        "x": 1250,
+        "y": 460,
         "wires": [
             [
                 "fb73391808a05d89"
@@ -1235,8 +1395,8 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 590,
-        "y": 540,
+        "x": 690,
+        "y": 520,
         "wires": [
             [
                 "aff7ca74d1c12718"
@@ -1257,8 +1417,8 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1120,
-        "y": 540,
+        "x": 1220,
+        "y": 520,
         "wires": [
             [
                 "40f6571fe387783f"
@@ -1283,8 +1443,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 430,
-        "y": 600,
+        "x": 530,
+        "y": 580,
         "wires": [
             [
                 "8d9ac7b18db36e6c"
@@ -1309,8 +1469,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 430,
-        "y": 720,
+        "x": 530,
+        "y": 700,
         "wires": [
             [
                 "180c137d64519cc7"
@@ -1327,8 +1487,8 @@
         "links": [
             "a0b0e7dda6e6a636"
         ],
-        "x": 1465,
-        "y": 380,
+        "x": 1565,
+        "y": 340,
         "wires": []
     },
     {
@@ -1340,8 +1500,8 @@
         "links": [
             "f71fde7872cdcc13"
         ],
-        "x": 65,
-        "y": 480,
+        "x": 165,
+        "y": 460,
         "wires": [
             [
                 "50a2b947947b6577"
@@ -1357,7 +1517,7 @@
         "links": [
             "521869dcda27127f"
         ],
-        "x": 65,
+        "x": 165,
         "y": 1620,
         "wires": [
             [
@@ -1375,8 +1535,8 @@
         "links": [
             "371a6fd6ea19a643"
         ],
-        "x": 1465,
-        "y": 720,
+        "x": 1565,
+        "y": 700,
         "wires": []
     },
     {
@@ -1406,7 +1566,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 180,
+        "x": 280,
         "y": 940,
         "wires": [
             [
@@ -1441,7 +1601,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 180,
+        "x": 280,
         "y": 1060,
         "wires": [
             [
@@ -1476,7 +1636,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 660,
+        "x": 760,
         "y": 940,
         "wires": [
             [
@@ -1502,7 +1662,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"true\");"
             }
         ],
-        "x": 1200,
+        "x": 1300,
         "y": 940,
         "wires": [
             [
@@ -1537,7 +1697,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 660,
+        "x": 760,
         "y": 1060,
         "wires": [
             [
@@ -1573,7 +1733,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 590,
+        "x": 690,
         "y": 1000,
         "wires": [
             [
@@ -1595,7 +1755,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1170,
+        "x": 1270,
         "y": 1000,
         "wires": [
             [
@@ -1621,7 +1781,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1200,
+        "x": 1300,
         "y": 1060,
         "wires": [
             [
@@ -1656,7 +1816,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 520,
+        "x": 620,
         "y": 820,
         "wires": [
             [
@@ -1682,7 +1842,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:auxDoorOpen\"] === \"false\");"
             }
         ],
-        "x": 1160,
+        "x": 1260,
         "y": 820,
         "wires": [
             [
@@ -1718,7 +1878,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 590,
+        "x": 690,
         "y": 880,
         "wires": [
             [
@@ -1740,7 +1900,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1130,
+        "x": 1230,
         "y": 880,
         "wires": [
             [
@@ -1766,7 +1926,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 430,
+        "x": 530,
         "y": 940,
         "wires": [
             [
@@ -1792,7 +1952,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 430,
+        "x": 530,
         "y": 1060,
         "wires": [
             [
@@ -1809,7 +1969,7 @@
         "links": [
             "a695e064d01a54ff"
         ],
-        "x": 65,
+        "x": 165,
         "y": 820,
         "wires": [
             [
@@ -1827,7 +1987,7 @@
         "links": [
             "b25a29255f43499a"
         ],
-        "x": 1465,
+        "x": 1565,
         "y": 1060,
         "wires": []
     },
@@ -1840,7 +2000,7 @@
         "links": [
             "e4da3cbb4e310f14"
         ],
-        "x": 65,
+        "x": 165,
         "y": 1160,
         "wires": [
             [
@@ -1875,7 +2035,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 520,
+        "x": 620,
         "y": 1160,
         "wires": [
             [
@@ -1901,7 +2061,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"false\");"
             }
         ],
-        "x": 1140,
+        "x": 1240,
         "y": 1160,
         "wires": [
             [
@@ -1936,7 +2096,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 230,
+        "x": 330,
         "y": 1220,
         "wires": [
             [
@@ -1962,7 +2122,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 490,
+        "x": 590,
         "y": 1220,
         "wires": [
             [
@@ -1997,7 +2157,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 700,
+        "x": 800,
         "y": 1220,
         "wires": [
             [
@@ -2023,7 +2183,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"true\");"
             }
         ],
-        "x": 1200,
+        "x": 1300,
         "y": 1220,
         "wires": [
             [
@@ -2058,7 +2218,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 230,
+        "x": 330,
         "y": 1280,
         "wires": [
             [
@@ -2084,7 +2244,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 490,
+        "x": 590,
         "y": 1280,
         "wires": [
             [
@@ -2119,7 +2279,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 700,
+        "x": 800,
         "y": 1280,
         "wires": [
             [
@@ -2145,7 +2305,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:hardMetersDisconnected\"] === \"false\");"
             }
         ],
-        "x": 1200,
+        "x": 1300,
         "y": 1280,
         "wires": [
             [
@@ -2163,7 +2323,7 @@
         "links": [
             "e105bd0169f8594f"
         ],
-        "x": 1465,
+        "x": 1565,
         "y": 1280,
         "wires": []
     },
@@ -2176,7 +2336,7 @@
         "links": [
             "6bd43167ebdab4a5"
         ],
-        "x": 65,
+        "x": 165,
         "y": 1380,
         "wires": [
             [
@@ -2211,7 +2371,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 520,
+        "x": 620,
         "y": 1380,
         "wires": [
             [
@@ -2237,7 +2397,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"false\");"
             }
         ],
-        "x": 1150,
+        "x": 1250,
         "y": 1380,
         "wires": [
             [
@@ -2269,7 +2429,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 190,
+        "x": 290,
         "y": 1440,
         "wires": [
             [
@@ -2295,7 +2455,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 480,
+        "x": 580,
         "y": 1440,
         "wires": [
             [
@@ -2330,7 +2490,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 700,
+        "x": 800,
         "y": 1440,
         "wires": [
             [
@@ -2356,7 +2516,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"true\");"
             }
         ],
-        "x": 1200,
+        "x": 1300,
         "y": 1440,
         "wires": [
             [
@@ -2388,7 +2548,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 190,
+        "x": 290,
         "y": 1500,
         "wires": [
             [
@@ -2414,7 +2574,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 480,
+        "x": 580,
         "y": 1500,
         "wires": [
             [
@@ -2449,7 +2609,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 700,
+        "x": 800,
         "y": 1500,
         "wires": [
             [
@@ -2475,7 +2635,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:cabinetStatus\"].$[\"g2s:serviceLampOn\"] === \"false\");"
             }
         ],
-        "x": 1210,
+        "x": 1310,
         "y": 1500,
         "wires": [
             [
@@ -2493,7 +2653,7 @@
         "links": [
             "05c85f9272a3a3fd"
         ],
-        "x": 1465,
+        "x": 1565,
         "y": 1500,
         "wires": []
     },
@@ -2506,26 +2666,13 @@
         "links": [
             "9cc078676c185438"
         ],
-        "x": 65,
-        "y": 140,
+        "x": 165,
+        "y": 100,
         "wires": [
             [
                 "0f10e3a864e7db14"
             ]
         ]
-    },
-    {
-        "id": "9cc078676c185438",
-        "type": "link out",
-        "z": "c8a723596530dedd",
-        "name": "Auto Start",
-        "mode": "link",
-        "links": [
-            "9409d78ed6221420"
-        ],
-        "x": 255,
-        "y": 60,
-        "wires": []
     },
     {
         "id": "fb0c307d04664e11",
@@ -2537,7 +2684,7 @@
         "links": [
             "b9273549ac917b61"
         ],
-        "x": 955,
+        "x": 1055,
         "y": 1660,
         "wires": []
     },
@@ -2550,7 +2697,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 900,
+        "x": 1000,
         "y": 1500,
         "wires": [
             [
@@ -2567,7 +2714,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 900,
+        "x": 1000,
         "y": 1440,
         "wires": [
             [
@@ -2584,7 +2731,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 900,
+        "x": 1000,
         "y": 1380,
         "wires": [
             [
@@ -2601,7 +2748,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 900,
+        "x": 1000,
         "y": 1280,
         "wires": [
             [
@@ -2618,7 +2765,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 900,
+        "x": 1000,
         "y": 1220,
         "wires": [
             [
@@ -2635,7 +2782,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 900,
+        "x": 1000,
         "y": 1160,
         "wires": [
             [
@@ -2652,7 +2799,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 910,
+        "x": 1010,
         "y": 1060,
         "wires": [
             [
@@ -2669,7 +2816,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 910,
+        "x": 1010,
         "y": 940,
         "wires": [
             [
@@ -2686,7 +2833,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 910,
+        "x": 1010,
         "y": 820,
         "wires": [
             [
@@ -2703,8 +2850,8 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 910,
-        "y": 720,
+        "x": 1010,
+        "y": 700,
         "wires": [
             [
                 "392c4130464ffa9a"
@@ -2720,8 +2867,8 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 910,
-        "y": 600,
+        "x": 1010,
+        "y": 580,
         "wires": [
             [
                 "a39a6d834c2d8773"
@@ -2737,8 +2884,8 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 910,
-        "y": 480,
+        "x": 1010,
+        "y": 460,
         "wires": [
             [
                 "7b988cb581838c28"
@@ -2754,8 +2901,8 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 910,
-        "y": 380,
+        "x": 1010,
+        "y": 340,
         "wires": [
             [
                 "9cac8d1a6a9985d0"
@@ -2771,31 +2918,13 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 910,
-        "y": 260,
+        "x": 1010,
+        "y": 220,
         "wires": [
             [
                 "e93e04f660431a88"
             ]
         ]
-    },
-    {
-        "id": "1d545a0d4673d897",
-        "type": "debug",
-        "z": "c8a723596530dedd",
-        "g": "7b3d4ab5a74719d9",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 750,
-        "y": 120,
-        "wires": []
     },
     {
         "id": "923248214c6d37d2",
@@ -2824,7 +2953,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 230,
+        "x": 330,
         "y": 200,
         "wires": [
             [
@@ -2859,7 +2988,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 220,
+        "x": 320,
         "y": 320,
         "wires": [
             [
@@ -2894,7 +3023,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 730,
+        "x": 830,
         "y": 200,
         "wires": [
             [
@@ -2920,7 +3049,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"true\");"
             }
         ],
-        "x": 1280,
+        "x": 1380,
         "y": 200,
         "wires": [
             [
@@ -2955,7 +3084,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 730,
+        "x": 830,
         "y": 320,
         "wires": [
             [
@@ -2991,7 +3120,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 650,
+        "x": 750,
         "y": 260,
         "wires": [
             [
@@ -3013,7 +3142,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1260,
+        "x": 1360,
         "y": 260,
         "wires": [
             [
@@ -3039,7 +3168,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"false\");"
             }
         ],
-        "x": 1290,
+        "x": 1390,
         "y": 320,
         "wires": [
             [
@@ -3074,7 +3203,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 730,
+        "x": 830,
         "y": 80,
         "wires": [
             [
@@ -3100,7 +3229,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"false\");"
             }
         ],
-        "x": 1200,
+        "x": 1300,
         "y": 80,
         "wires": [
             [
@@ -3136,7 +3265,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 650,
+        "x": 750,
         "y": 140,
         "wires": [
             [
@@ -3158,7 +3287,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1200,
+        "x": 1300,
         "y": 140,
         "wires": [
             [
@@ -3184,7 +3313,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 470,
+        "x": 570,
         "y": 200,
         "wires": [
             [
@@ -3210,7 +3339,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 470,
+        "x": 570,
         "y": 320,
         "wires": [
             [
@@ -3228,7 +3357,7 @@
         "links": [
             "a7cede1121e0c825"
         ],
-        "x": 1575,
+        "x": 1675,
         "y": 320,
         "wires": []
     },
@@ -3237,11 +3366,11 @@
         "type": "link in",
         "z": "9e8caeae3c861ce5",
         "g": "8847a3cdf5f621d1",
-        "name": "Drop Door In",
+        "name": "Coin Acceptor Drop Door In",
         "links": [
             "fb0c307d04664e11"
         ],
-        "x": 65,
+        "x": 165,
         "y": 80,
         "wires": [
             [
@@ -3258,7 +3387,7 @@
         "links": [
             "811095ec10dd1e8e"
         ],
-        "x": 65,
+        "x": 165,
         "y": 440,
         "wires": [
             [
@@ -3293,7 +3422,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 580,
+        "x": 680,
         "y": 440,
         "wires": [
             [
@@ -3319,7 +3448,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:mechanicalFault\"] === \"false\");"
             }
         ],
-        "x": 1260,
+        "x": 1360,
         "y": 440,
         "wires": [
             [
@@ -3357,7 +3486,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 280,
+        "x": 380,
         "y": 500,
         "wires": [
             [
@@ -3383,7 +3512,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 550,
+        "x": 650,
         "y": 500,
         "wires": [
             [
@@ -3418,7 +3547,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 790,
+        "x": 890,
         "y": 500,
         "wires": [
             [
@@ -3444,7 +3573,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:mechanicalFault\"] === \"true\");"
             }
         ],
-        "x": 1300,
+        "x": 1400,
         "y": 500,
         "wires": [
             [
@@ -3482,7 +3611,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 270,
+        "x": 370,
         "y": 560,
         "wires": [
             [
@@ -3508,7 +3637,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 550,
+        "x": 650,
         "y": 560,
         "wires": [
             [
@@ -3543,7 +3672,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 790,
+        "x": 890,
         "y": 560,
         "wires": [
             [
@@ -3569,7 +3698,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:mechanicalFault\"] === \"false\");"
             }
         ],
-        "x": 1310,
+        "x": 1410,
         "y": 560,
         "wires": [
             [
@@ -3587,7 +3716,7 @@
         "links": [
             "c195925636a14386"
         ],
-        "x": 1575,
+        "x": 1675,
         "y": 560,
         "wires": []
     },
@@ -3598,7 +3727,7 @@
         "g": "c79d08c7bae299cb",
         "name": "",
         "collection": "a03b6f1d267925ab",
-        "x": 270,
+        "x": 370,
         "y": 1040,
         "wires": [
             [
@@ -3621,7 +3750,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 480,
+        "x": 580,
         "y": 1040,
         "wires": []
     },
@@ -3631,7 +3760,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "c79d08c7bae299cb",
         "name": "",
-        "x": 490,
+        "x": 590,
         "y": 1080,
         "wires": [
             [
@@ -3651,7 +3780,7 @@
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 760,
+        "x": 860,
         "y": 1080,
         "wires": [
             [
@@ -3668,7 +3797,7 @@
         "links": [
             "d5dd1f3cb7d1cf9f"
         ],
-        "x": 65,
+        "x": 165,
         "y": 1040,
         "wires": [
             [
@@ -3684,9 +3813,9 @@
         "name": "Coin Acceptor Tests Done",
         "mode": "link",
         "links": [
-            "b84bb3ebfcf0769a"
+            "0f92a0516dbb8d6a"
         ],
-        "x": 985,
+        "x": 1085,
         "y": 1080,
         "wires": []
     },
@@ -3723,7 +3852,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 230,
+        "x": 330,
         "y": 860,
         "wires": [
             [
@@ -3758,7 +3887,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 730,
+        "x": 830,
         "y": 680,
         "wires": [
             [
@@ -3780,7 +3909,7 @@
                 "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:coinAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
             }
         ],
-        "x": 1210,
+        "x": 1310,
         "y": 680,
         "wires": [
             [
@@ -3816,7 +3945,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 790,
+        "x": 890,
         "y": 740,
         "wires": [
             [
@@ -3838,7 +3967,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1260,
+        "x": 1360,
         "y": 740,
         "wires": [
             [
@@ -3864,7 +3993,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 490,
+        "x": 590,
         "y": 860,
         "wires": [
             [
@@ -3882,7 +4011,7 @@
         "links": [
             "6b4a550b5f793204"
         ],
-        "x": 1575,
+        "x": 1675,
         "y": 920,
         "wires": []
     },
@@ -3895,7 +4024,7 @@
         "links": [
             "49be9a10bd34b649"
         ],
-        "x": 65,
+        "x": 165,
         "y": 680,
         "wires": [
             [
@@ -3931,7 +4060,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 790,
+        "x": 890,
         "y": 800,
         "wires": [
             [
@@ -3953,7 +4082,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
             }
         ],
-        "x": 1250,
+        "x": 1350,
         "y": 800,
         "wires": [
             [
@@ -3989,7 +4118,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 790,
+        "x": 890,
         "y": 860,
         "wires": [
             [
@@ -4025,7 +4154,7 @@
         "mqtt_retain": "",
         "sync_with_group": true,
         "sync_with_group_timeout": 5,
-        "x": 790,
+        "x": 890,
         "y": 920,
         "wires": [
             [
@@ -4047,7 +4176,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1000\");"
             }
         ],
-        "x": 1300,
+        "x": 1400,
         "y": 860,
         "wires": [
             [
@@ -4069,7 +4198,7 @@
                 "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
             }
         ],
-        "x": 1300,
+        "x": 1400,
         "y": 920,
         "wires": [
             [
@@ -4086,7 +4215,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 990,
+        "x": 1090,
         "y": 80,
         "wires": [
             [
@@ -4103,7 +4232,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 990,
+        "x": 1090,
         "y": 200,
         "wires": [
             [
@@ -4120,7 +4249,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 990,
+        "x": 1090,
         "y": 320,
         "wires": [
             [
@@ -4137,7 +4266,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 1010,
+        "x": 1110,
         "y": 440,
         "wires": [
             [
@@ -4154,7 +4283,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 1010,
+        "x": 1110,
         "y": 500,
         "wires": [
             [
@@ -4171,7 +4300,7 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 1010,
+        "x": 1110,
         "y": 560,
         "wires": [
             [
@@ -4188,11 +4317,1738 @@
         "property": "payload.result.device_status",
         "attr": "",
         "chr": "",
-        "x": 1010,
+        "x": 1110,
         "y": 680,
         "wires": [
             [
                 "fe475e6e355248f2"
+            ]
+        ]
+    },
+    {
+        "id": "58f7b22817a92324",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "g2s_action_name": "",
+        "class_name": "G2S_noteAcceptor",
+        "action_data": {
+            "device_info": {
+                "uid": "NA_1"
+            },
+            "door_openned": true
+        },
+        "action": {
+            "class_name": "G2S_noteAcceptor",
+            "class_action": "Stacker Door Access",
+            "action_method": "g2s.egm.G2S_noteAcceptor.stacker.door.access"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "b7a47ad01afc35fc"
+            ]
+        ]
+    },
+    {
+        "id": "1ce12cb42038328f",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "g2s_action_name": "",
+        "class_name": "G2S_noteAcceptor",
+        "action_data": {
+            "device_info": {
+                "uid": "NA_A"
+            },
+            "door_openned": false
+        },
+        "action": {
+            "class_name": "G2S_noteAcceptor",
+            "class_action": "Stacker Door Access",
+            "action_method": "g2s.egm.G2S_noteAcceptor.stacker.door.access"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 330,
+        "y": 320,
+        "wires": [
+            [
+                "c0b1091bb8e3c23b"
+            ]
+        ]
+    },
+    {
+        "id": "0d3adf580261394c",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 830,
+        "y": 200,
+        "wires": [
+            [
+                "362c39a76c4dba05"
+            ]
+        ]
+    },
+    {
+        "id": "768189a13fc3bff6",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "Test NoteAcceptor Device Status After Drop Door Open",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"true\");"
+            }
+        ],
+        "x": 1390,
+        "y": 200,
+        "wires": [
+            [
+                "505715923dac22f6"
+            ]
+        ]
+    },
+    {
+        "id": "75dc294216c855cb",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 830,
+        "y": 320,
+        "wires": [
+            [
+                "5c43ff85a57d6fb0"
+            ]
+        ]
+    },
+    {
+        "id": "505715923dac22f6",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            },
+            "meter_name": "G2S_dropDoorOpenCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 750,
+        "y": 260,
+        "wires": [
+            [
+                "4455a3bd356ca237"
+            ]
+        ]
+    },
+    {
+        "id": "4455a3bd356ca237",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "Test NoteAcceptor Meters After Drop Door Open",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Drop Door Count is 1",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
+            }
+        ],
+        "x": 1360,
+        "y": 260,
+        "wires": [
+            [
+                "1ce12cb42038328f"
+            ]
+        ]
+    },
+    {
+        "id": "c1ac62f77cfb5ec9",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "Test NoteAcceptor Device Status After Drop Door Closed",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is Drop door openned",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"false\");"
+            }
+        ],
+        "x": 1390,
+        "y": 320,
+        "wires": [
+            [
+                "afdcf98520fc41c4"
+            ]
+        ]
+    },
+    {
+        "id": "6868d0deca8d6363",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 830,
+        "y": 80,
+        "wires": [
+            [
+                "2c5e6b783e7b3af1"
+            ]
+        ]
+    },
+    {
+        "id": "e02852fa89b2030b",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "Test Initial Drop Door Status",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is Drop door closed",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:doorOpen\"] === \"false\");"
+            }
+        ],
+        "x": 1300,
+        "y": 80,
+        "wires": [
+            [
+                "6a51a231134d40c7"
+            ]
+        ]
+    },
+    {
+        "id": "6a51a231134d40c7",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            },
+            "meter_name": "G2S_dropDoorOpenCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 750,
+        "y": 140,
+        "wires": [
+            [
+                "2bdab3387bf08c18"
+            ]
+        ]
+    },
+    {
+        "id": "2bdab3387bf08c18",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "Test Initial Drop Door Meters",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Drop Door Open Count is 0",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
+            }
+        ],
+        "x": 1300,
+        "y": 140,
+        "wires": [
+            [
+                "58f7b22817a92324"
+            ]
+        ]
+    },
+    {
+        "id": "b7a47ad01afc35fc",
+        "type": "delay",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 200,
+        "wires": [
+            [
+                "0d3adf580261394c"
+            ]
+        ]
+    },
+    {
+        "id": "c0b1091bb8e3c23b",
+        "type": "delay",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 320,
+        "wires": [
+            [
+                "75dc294216c855cb"
+            ]
+        ]
+    },
+    {
+        "id": "afdcf98520fc41c4",
+        "type": "link out",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "Drop Door Out",
+        "mode": "link",
+        "links": [
+            "536b53d98318a0a3"
+        ],
+        "x": 1675,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "0f92a0516dbb8d6a",
+        "type": "link in",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "Note Acceptor Drop Door In",
+        "links": [
+            "127fe2fdf8bc0482"
+        ],
+        "x": 165,
+        "y": 80,
+        "wires": [
+            [
+                "6868d0deca8d6363"
+            ]
+        ]
+    },
+    {
+        "id": "2c5e6b783e7b3af1",
+        "type": "xml",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1090,
+        "y": 80,
+        "wires": [
+            [
+                "e02852fa89b2030b"
+            ]
+        ]
+    },
+    {
+        "id": "362c39a76c4dba05",
+        "type": "xml",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1090,
+        "y": 200,
+        "wires": [
+            [
+                "768189a13fc3bff6"
+            ]
+        ]
+    },
+    {
+        "id": "5c43ff85a57d6fb0",
+        "type": "xml",
+        "z": "c94aadc737aeba2c",
+        "g": "cb9545e6214ed6fd",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1090,
+        "y": 320,
+        "wires": [
+            [
+                "c1ac62f77cfb5ec9"
+            ]
+        ]
+    },
+    {
+        "id": "7234841a8de38fb6",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "g2s_action_name": "",
+        "class_name": "G2S_noteAcceptor",
+        "action_data": {
+            "device_info": {
+                "uid": "NA_1"
+            },
+            "error_info": {
+                "error_code": 9,
+                "set_flag": true
+            }
+        },
+        "action": {
+            "class_name": "G2S_noteAcceptor",
+            "class_action": "Error",
+            "action_method": "g2s.egm.G2S_noteAcceptor.errors.set_error"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 340,
+        "y": 540,
+        "wires": [
+            [
+                "a22a73293af7f1dd"
+            ]
+        ]
+    },
+    {
+        "id": "9de735c760016252",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "g2s_action_name": "",
+        "class_name": "G2S_noteAcceptor",
+        "action_data": {
+            "device_info": {
+                "uid": "NA_1"
+            },
+            "error_info": {
+                "error_code": 9,
+                "set_flag": false
+            }
+        },
+        "action": {
+            "class_name": "G2S_noteAcceptor",
+            "class_action": "Error",
+            "action_method": "g2s.egm.G2S_noteAcceptor.errors.set_error"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 350,
+        "y": 660,
+        "wires": [
+            [
+                "f5299a83f5970e87"
+            ]
+        ]
+    },
+    {
+        "id": "28751f7c49efcd93",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 870,
+        "y": 540,
+        "wires": [
+            [
+                "d7dcacd3a3fa68dc"
+            ]
+        ]
+    },
+    {
+        "id": "bc9d2ae06b5d32be",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "Test NoteAcceptor Device Status After Stacker Removed",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"false\");"
+            },
+            {
+                "name": "is cabinet door openned",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:stackerRemoved\"] === \"true\");"
+            }
+        ],
+        "x": 1390,
+        "y": 540,
+        "wires": [
+            [
+                "def3a9d146409bc8"
+            ]
+        ]
+    },
+    {
+        "id": "a61fe4044f35dfaf",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 870,
+        "y": 660,
+        "wires": [
+            [
+                "7fdc8775cd6a70ea"
+            ]
+        ]
+    },
+    {
+        "id": "def3a9d146409bc8",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            },
+            "meter_name": "G2S_stackerRemovedCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 790,
+        "y": 600,
+        "wires": [
+            [
+                "085bf9a23e8557a0"
+            ]
+        ]
+    },
+    {
+        "id": "085bf9a23e8557a0",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "Test NoteAcceptor Meters After Stacker Removal",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Drop Door Count is 1",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
+            }
+        ],
+        "x": 1370,
+        "y": 600,
+        "wires": [
+            [
+                "9de735c760016252"
+            ]
+        ]
+    },
+    {
+        "id": "5aa491c8df2c64ab",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "Test NoteAcceptor Device Status After Stacker Reinserted",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is Drop door openned",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:stackerRemoved\"] === \"false\");"
+            }
+        ],
+        "x": 1390,
+        "y": 660,
+        "wires": [
+            [
+                "1c2fdd8ca60a996d"
+            ]
+        ]
+    },
+    {
+        "id": "fa86769796f89944",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 870,
+        "y": 420,
+        "wires": [
+            [
+                "46a97351b25c2c9d"
+            ]
+        ]
+    },
+    {
+        "id": "211a58a50228dfd0",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "Test Initial Stacker Status",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "is Drop door closed",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:stackerRemoved\"] === \"false\");"
+            }
+        ],
+        "x": 1290,
+        "y": 420,
+        "wires": [
+            [
+                "eabf0ce008c25bde"
+            ]
+        ]
+    },
+    {
+        "id": "eabf0ce008c25bde",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            },
+            "meter_name": "G2S_stackerRemovedCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 790,
+        "y": 480,
+        "wires": [
+            [
+                "c1594edfbb3cb6b8"
+            ]
+        ]
+    },
+    {
+        "id": "c1594edfbb3cb6b8",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "Test Initial Stacker Meters",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Drop Door Open Count is 0",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
+            }
+        ],
+        "x": 1290,
+        "y": 480,
+        "wires": [
+            [
+                "7234841a8de38fb6"
+            ]
+        ]
+    },
+    {
+        "id": "a22a73293af7f1dd",
+        "type": "delay",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 540,
+        "wires": [
+            [
+                "28751f7c49efcd93"
+            ]
+        ]
+    },
+    {
+        "id": "f5299a83f5970e87",
+        "type": "delay",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 660,
+        "wires": [
+            [
+                "a61fe4044f35dfaf"
+            ]
+        ]
+    },
+    {
+        "id": "1c2fdd8ca60a996d",
+        "type": "link out",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "Drop Door Out",
+        "mode": "link",
+        "links": [
+            "49693658c6b7b16b"
+        ],
+        "x": 1675,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "536b53d98318a0a3",
+        "type": "link in",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "Drop Door In",
+        "links": [
+            "afdcf98520fc41c4"
+        ],
+        "x": 165,
+        "y": 420,
+        "wires": [
+            [
+                "fa86769796f89944"
+            ]
+        ]
+    },
+    {
+        "id": "46a97351b25c2c9d",
+        "type": "xml",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1090,
+        "y": 420,
+        "wires": [
+            [
+                "211a58a50228dfd0"
+            ]
+        ]
+    },
+    {
+        "id": "d7dcacd3a3fa68dc",
+        "type": "xml",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1090,
+        "y": 540,
+        "wires": [
+            [
+                "bc9d2ae06b5d32be"
+            ]
+        ]
+    },
+    {
+        "id": "7fdc8775cd6a70ea",
+        "type": "xml",
+        "z": "c94aadc737aeba2c",
+        "g": "d0194652c91bd897",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1090,
+        "y": 660,
+        "wires": [
+            [
+                "5aa491c8df2c64ab"
+            ]
+        ]
+    },
+    {
+        "id": "ec01898c4f66f962",
+        "type": "test-collection-output",
+        "z": "c94aadc737aeba2c",
+        "g": "dd27383e724564fc",
+        "name": "",
+        "collection": "39025918ae2b543b",
+        "x": 370,
+        "y": 1260,
+        "wires": [
+            [
+                "1aeba4d89c809169",
+                "41bf8e5904c4be34"
+            ]
+        ]
+    },
+    {
+        "id": "1aeba4d89c809169",
+        "type": "debug",
+        "z": "c94aadc737aeba2c",
+        "g": "dd27383e724564fc",
+        "name": "Print Results",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "41bf8e5904c4be34",
+        "type": "test-exporter-junit",
+        "z": "c94aadc737aeba2c",
+        "g": "dd27383e724564fc",
+        "name": "",
+        "x": 590,
+        "y": 1300,
+        "wires": [
+            [
+                "f73dac472cfbddf2"
+            ]
+        ]
+    },
+    {
+        "id": "f73dac472cfbddf2",
+        "type": "file",
+        "z": "c94aadc737aeba2c",
+        "g": "dd27383e724564fc",
+        "name": "",
+        "filename": "noteAcceptor_test_report.xml",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 860,
+        "y": 1300,
+        "wires": [
+            [
+                "9bacf1bb4d5e4742"
+            ]
+        ]
+    },
+    {
+        "id": "7c182c8acca29241",
+        "type": "link in",
+        "z": "c94aadc737aeba2c",
+        "g": "dd27383e724564fc",
+        "name": "NoteAcceptor Test Report",
+        "links": [
+            "c937ce47137e3e8d"
+        ],
+        "x": 165,
+        "y": 1260,
+        "wires": [
+            [
+                "ec01898c4f66f962"
+            ]
+        ]
+    },
+    {
+        "id": "9bacf1bb4d5e4742",
+        "type": "link out",
+        "z": "c94aadc737aeba2c",
+        "g": "dd27383e724564fc",
+        "name": "NoteAcceptor Tests Done",
+        "mode": "link",
+        "links": [
+            "b84bb3ebfcf0769a"
+        ],
+        "x": 1085,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "3b639736e6168d91",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "g2s_action_name": "",
+        "class_name": "G2S_noteAcceptor",
+        "action_data": {
+            "device_info": {
+                "uid": "NA_1"
+            },
+            "currency_info": {
+                "currency_id": "CAD",
+                "denom": 500000
+            },
+            "egm_tx_id": -1
+        },
+        "action": {
+            "class_name": "G2S_noteAcceptor",
+            "class_action": "Note Escrowed",
+            "action_method": "g2s.egm.G2S_noteAcceptor.note.escrowed"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 340,
+        "y": 960,
+        "wires": [
+            [
+                "de50e821346683af"
+            ]
+        ]
+    },
+    {
+        "id": "d95a6db105d570b5",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 870,
+        "y": 780,
+        "wires": [
+            [
+                "5988af46acc40a29"
+            ]
+        ]
+    },
+    {
+        "id": "4e1d11a8c27ea6cd",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "Test Initial NoteAcceptor Status",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Is device EGM disabled",
+                "expression": "assert.isTrue(msg.payload.result.device_status[\"g2s:noteAcceptorStatus\"].$[\"g2s:egmEnabled\"] === \"true\");"
+            },
+            {
+                "name": "No escrowed notes",
+                "expression": "assert.isTrue(msg.payload.result.device_status['g2s:noteAcceptorStatus'].$['g2s:noteValueInEscrow'] === \"0\")"
+            }
+        ],
+        "x": 1310,
+        "y": 780,
+        "wires": [
+            [
+                "3b8a480e6f60cbbe"
+            ]
+        ]
+    },
+    {
+        "id": "3b8a480e6f60cbbe",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            },
+            "meter_name": "G2S_currencyInAmt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 930,
+        "y": 840,
+        "wires": [
+            [
+                "a3a75b42e6a54beb"
+            ]
+        ]
+    },
+    {
+        "id": "a3a75b42e6a54beb",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "Test Initial NoteAcceptor Notes In Amount Meter",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Coin In Amt is 0",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
+            }
+        ],
+        "x": 1360,
+        "y": 840,
+        "wires": [
+            [
+                "6fce62edaf418e5a"
+            ]
+        ]
+    },
+    {
+        "id": "de50e821346683af",
+        "type": "delay",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 610,
+        "y": 960,
+        "wires": [
+            [
+                "630120a12693f10e"
+            ]
+        ]
+    },
+    {
+        "id": "c937ce47137e3e8d",
+        "type": "link out",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "Coin In Out",
+        "mode": "link",
+        "links": [
+            "7c182c8acca29241"
+        ],
+        "x": 1675,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "49693658c6b7b16b",
+        "type": "link in",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "Coin In In",
+        "links": [
+            "1c2fdd8ca60a996d"
+        ],
+        "x": 165,
+        "y": 780,
+        "wires": [
+            [
+                "d95a6db105d570b5"
+            ]
+        ]
+    },
+    {
+        "id": "6fce62edaf418e5a",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            },
+            "meter_name": "G2S_currencyInCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 930,
+        "y": 900,
+        "wires": [
+            [
+                "552b950beff93c15"
+            ]
+        ]
+    },
+    {
+        "id": "552b950beff93c15",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "Test Initial NoteAcceptor Note In Count Meter",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Coin In Count is 0",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"0\");"
+            }
+        ],
+        "x": 1350,
+        "y": 900,
+        "wires": [
+            [
+                "3b639736e6168d91"
+            ]
+        ]
+    },
+    {
+        "id": "6348ceb928692f9b",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            },
+            "meter_name": "G2S_currencyInAmt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 930,
+        "y": 1020,
+        "wires": [
+            [
+                "2d1d8bec2fb0dfd6"
+            ]
+        ]
+    },
+    {
+        "id": "8995df656bd221a7",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            },
+            "meter_name": "G2S_currencyInCnt"
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Meter Value",
+            "action_method": "g2s.egm.meters.get_meter"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 910,
+        "y": 1080,
+        "wires": [
+            [
+                "a30541ad2dcab39b"
+            ]
+        ]
+    },
+    {
+        "id": "a30541ad2dcab39b",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "Test NoteAcceptor Note In Count Meter After Note Insertion",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Coin In Count is 0",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"1\");"
+            }
+        ],
+        "x": 1400,
+        "y": 1080,
+        "wires": [
+            [
+                "0de9832f73171653"
+            ]
+        ]
+    },
+    {
+        "id": "5988af46acc40a29",
+        "type": "xml",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1090,
+        "y": 780,
+        "wires": [
+            [
+                "4e1d11a8c27ea6cd"
+            ]
+        ]
+    },
+    {
+        "id": "630120a12693f10e",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 870,
+        "y": 960,
+        "wires": [
+            [
+                "6df984f36c43152b"
+            ]
+        ]
+    },
+    {
+        "id": "6df984f36c43152b",
+        "type": "xml",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1090,
+        "y": 960,
+        "wires": [
+            [
+                "3ad7c87b27a381ec"
+            ]
+        ]
+    },
+    {
+        "id": "3ad7c87b27a381ec",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "Test NoteAcceptor Status After Note Insertion",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "No escrowed notes",
+                "expression": "assert.isTrue(msg.payload.result.device_status['g2s:noteAcceptorStatus'].$['g2s:noteValueInEscrow'] === \"500000\")"
+            }
+        ],
+        "x": 1350,
+        "y": 960,
+        "wires": [
+            [
+                "9b08cc2393e68c6a"
+            ]
+        ]
+    },
+    {
+        "id": "2d1d8bec2fb0dfd6",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "Test NoteAcceptor Note In Amount Meter After Note Stacked",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "Coin In Amt is 1000",
+                "expression": "assert.isTrue(msg.payload.result.meter.value === \"500000\");"
+            }
+        ],
+        "x": 1400,
+        "y": 1020,
+        "wires": [
+            [
+                "8995df656bd221a7"
+            ]
+        ]
+    },
+    {
+        "id": "9b08cc2393e68c6a",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "g2s_action_name": "",
+        "class_name": "G2S_noteAcceptor",
+        "action_data": {
+            "device_info": {
+                "uid": "NA_1"
+            },
+            "destination": 1,
+            "egm_tx_id": -1
+        },
+        "action": {
+            "class_name": "G2S_noteAcceptor",
+            "class_action": "Note Stacked",
+            "action_method": "g2s.egm.G2S_noteAcceptor.note.stacked"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 350,
+        "y": 1020,
+        "wires": [
+            [
+                "8aca7c1f8d65b77f"
+            ]
+        ]
+    },
+    {
+        "id": "8aca7c1f8d65b77f",
+        "type": "delay",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 1020,
+        "wires": [
+            [
+                "6348ceb928692f9b"
+            ]
+        ]
+    },
+    {
+        "id": "0de9832f73171653",
+        "type": "g2sAction",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "g2s_action_name": "",
+        "class_name": "Common",
+        "action_data": {
+            "device_info": {
+                "class_name": "G2S_noteAcceptor",
+                "uid": "NA_1"
+            }
+        },
+        "action": {
+            "class_name": "Common",
+            "class_action": "Get Device Status",
+            "action_method": "g2s.egm.devices.get_status"
+        },
+        "use_this_transport": true,
+        "use_mqtt": false,
+        "xmlrpc_config": "12817824be111c81",
+        "mqtt_config": "",
+        "mqtt_egm_group": "",
+        "mqtt_qos": "",
+        "mqtt_retain": "",
+        "sync_with_group": true,
+        "sync_with_group_timeout": 5,
+        "x": 870,
+        "y": 1140,
+        "wires": [
+            [
+                "4e4ad42b91412069"
+            ]
+        ]
+    },
+    {
+        "id": "4e4ad42b91412069",
+        "type": "xml",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "",
+        "property": "payload.result.device_status",
+        "attr": "",
+        "chr": "",
+        "x": 1090,
+        "y": 1140,
+        "wires": [
+            [
+                "0d638d8d9d6aa0f4"
+            ]
+        ]
+    },
+    {
+        "id": "0d638d8d9d6aa0f4",
+        "type": "test-case",
+        "z": "c94aadc737aeba2c",
+        "g": "691fa100c9f8807d",
+        "name": "Test NoteAcceptor Status After Note Stacked",
+        "collection": "39025918ae2b543b",
+        "timer": "",
+        "tests": [
+            {
+                "name": "No escrowed notes",
+                "expression": "assert.isTrue(msg.payload.result.device_status['g2s:noteAcceptorStatus'].$['g2s:noteValueInEscrow'] === \"0\")"
+            }
+        ],
+        "x": 1350,
+        "y": 1140,
+        "wires": [
+            [
+                "c937ce47137e3e8d"
             ]
         ]
     },
@@ -4237,7 +6093,7 @@
         "z": "a67d75c8f37854fe",
         "name": "All Tests Done",
         "links": [
-            "127fe2fdf8bc0482"
+            "9bacf1bb4d5e4742"
         ],
         "x": 150.765625,
         "y": 71.76171875,
