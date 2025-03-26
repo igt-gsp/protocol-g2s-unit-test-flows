@@ -40,6 +40,53 @@
         "env": []
     },
     {
+        "id": "a1954e354fc897bc",
+        "type": "subflow",
+        "name": "CreateCollectionReport",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 60,
+                "wires": [
+                    {
+                        "id": "e2a02e8b32e9943f"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 780,
+                "y": 60,
+                "wires": [
+                    {
+                        "id": "684fec533c4d1afd",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [
+            {
+                "name": "collection_name",
+                "type": "str",
+                "value": "",
+                "ui": {
+                    "type": "input",
+                    "opts": {
+                        "types": [
+                            "str"
+                        ]
+                    }
+                }
+            }
+        ],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
         "id": "7b3d4ab5a74719d9",
         "type": "group",
         "z": "c8a723596530dedd",
@@ -116,17 +163,14 @@
             "label": true
         },
         "nodes": [
-            "e4a9d748fa3e3707",
-            "4a30ebe37f4db4c4",
-            "0d43fcfa9ddc9da2",
-            "f6b5801988103ab8",
             "05c85f9272a3a3fd",
-            "fb0c307d04664e11"
+            "fb0c307d04664e11",
+            "bfd9994cb7528902"
         ],
         "x": 124,
         "y": 1579,
-        "w": 972,
-        "h": 122
+        "w": 402,
+        "h": 82
     },
     {
         "id": "d048657b1a949531",
@@ -295,17 +339,14 @@
             "label": true
         },
         "nodes": [
-            "29388b80d37119b7",
-            "f33a1550474fb659",
-            "14f97943c484e1c5",
-            "2637bc7daeb3c0ca",
             "6b4a550b5f793204",
-            "127fe2fdf8bc0482"
+            "127fe2fdf8bc0482",
+            "f4116df93bbccdd0"
         ],
         "x": 124,
         "y": 999,
-        "w": 1002,
-        "h": 122
+        "w": 412,
+        "h": 82
     },
     {
         "id": "1b45323fc883f949",
@@ -414,17 +455,14 @@
             "label": true
         },
         "nodes": [
-            "ec01898c4f66f962",
-            "1aeba4d89c809169",
-            "41bf8e5904c4be34",
-            "f73dac472cfbddf2",
             "7c182c8acca29241",
-            "9bacf1bb4d5e4742"
+            "9bacf1bb4d5e4742",
+            "376c0a9ae663669f"
         ],
         "x": 124,
         "y": 1219,
-        "w": 1002,
-        "h": 122
+        "w": 392,
+        "h": 82
     },
     {
         "id": "691fa100c9f8807d",
@@ -517,6 +555,86 @@
         "type": "test-collection",
         "name": "G2S_noteAcceptor_tests",
         "parentCollection": "f1af7bf27170a115"
+    },
+    {
+        "id": "46101e6c5c832223",
+        "type": "test-collection",
+        "name": "CoinAcceptorDoor",
+        "parentCollection": "a03b6f1d267925ab"
+    },
+    {
+        "id": "d8c6bc09b883629f",
+        "type": "test-collection",
+        "name": "CoinAcceptorMechanicalFault",
+        "parentCollection": "a03b6f1d267925ab"
+    },
+    {
+        "id": "6c90746e48a5abee",
+        "type": "test-collection",
+        "name": "CoinInTest",
+        "parentCollection": "a03b6f1d267925ab"
+    },
+    {
+        "id": "967123efa45a99be",
+        "type": "test-collection",
+        "name": "NoteAcceptorDoor",
+        "parentCollection": "39025918ae2b543b"
+    },
+    {
+        "id": "22ae68f5b472374b",
+        "type": "test-collection",
+        "name": "NoteAcceptorStackerAccess",
+        "parentCollection": "39025918ae2b543b"
+    },
+    {
+        "id": "d32b713aee85a34b",
+        "type": "test-collection",
+        "name": "NoteEscrowStacked",
+        "parentCollection": "39025918ae2b543b"
+    },
+    {
+        "id": "e2a02e8b32e9943f",
+        "type": "test-collection-output",
+        "z": "a1954e354fc897bc",
+        "name": "",
+        "collection": "39025918ae2b543b",
+        "x": 220,
+        "y": 60,
+        "wires": [
+            [
+                "91c58d14b68f4e9a"
+            ]
+        ]
+    },
+    {
+        "id": "91c58d14b68f4e9a",
+        "type": "test-exporter-junit",
+        "z": "a1954e354fc897bc",
+        "name": "",
+        "x": 430,
+        "y": 60,
+        "wires": [
+            [
+                "684fec533c4d1afd"
+            ]
+        ]
+    },
+    {
+        "id": "684fec533c4d1afd",
+        "type": "file",
+        "z": "a1954e354fc897bc",
+        "name": "Write report to file",
+        "filename": "$env(\"collection_name\")&'.xml'",
+        "filenameType": "jsonata",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 630,
+        "y": 60,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "e837e1483f0a6f4f",
@@ -621,22 +739,6 @@
         ]
     },
     {
-        "id": "e4a9d748fa3e3707",
-        "type": "test-collection-output",
-        "z": "c8a723596530dedd",
-        "g": "94e3d67e4fa53b9d",
-        "name": "",
-        "collection": "f1af7bf27170a115",
-        "x": 370,
-        "y": 1620,
-        "wires": [
-            [
-                "4a30ebe37f4db4c4",
-                "0d43fcfa9ddc9da2"
-            ]
-        ]
-    },
-    {
         "id": "c946a56504ad6ee6",
         "type": "g2sAction",
         "z": "c8a723596530dedd",
@@ -731,24 +833,6 @@
                 "141f6679ad599c95"
             ]
         ]
-    },
-    {
-        "id": "4a30ebe37f4db4c4",
-        "type": "debug",
-        "z": "c8a723596530dedd",
-        "g": "94e3d67e4fa53b9d",
-        "name": "Print Results",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 580,
-        "y": 1620,
-        "wires": []
     },
     {
         "id": "a66069d6ed48cd33",
@@ -967,40 +1051,6 @@
         "wires": [
             [
                 "f485c45069ed0f1c"
-            ]
-        ]
-    },
-    {
-        "id": "0d43fcfa9ddc9da2",
-        "type": "test-exporter-junit",
-        "z": "c8a723596530dedd",
-        "g": "94e3d67e4fa53b9d",
-        "name": "",
-        "x": 620,
-        "y": 1660,
-        "wires": [
-            [
-                "f6b5801988103ab8"
-            ]
-        ]
-    },
-    {
-        "id": "f6b5801988103ab8",
-        "type": "file",
-        "z": "c8a723596530dedd",
-        "g": "94e3d67e4fa53b9d",
-        "name": "",
-        "filename": "cabinet_test_report.xml",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 850,
-        "y": 1660,
-        "wires": [
-            [
-                "fb0c307d04664e11"
             ]
         ]
     },
@@ -1521,7 +1571,7 @@
         "y": 1620,
         "wires": [
             [
-                "e4a9d748fa3e3707"
+                "bfd9994cb7528902"
             ]
         ]
     },
@@ -2684,8 +2734,8 @@
         "links": [
             "b9273549ac917b61"
         ],
-        "x": 1055,
-        "y": 1660,
+        "x": 485,
+        "y": 1620,
         "wires": []
     },
     {
@@ -2927,6 +2977,32 @@
         ]
     },
     {
+        "id": "bfd9994cb7528902",
+        "type": "subflow:a1954e354fc897bc",
+        "z": "c8a723596530dedd",
+        "g": "94e3d67e4fa53b9d",
+        "name": "",
+        "env": [
+            {
+                "name": "collection_name",
+                "value": "G2S_cabinet_tests",
+                "type": "str"
+            },
+            {
+                "name": "collection",
+                "value": "G2S_cabinet_tests",
+                "type": "str"
+            }
+        ],
+        "x": 320,
+        "y": 1620,
+        "wires": [
+            [
+                "fb0c307d04664e11"
+            ]
+        ]
+    },
+    {
         "id": "923248214c6d37d2",
         "type": "g2sAction",
         "z": "9e8caeae3c861ce5",
@@ -3037,7 +3113,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "8847a3cdf5f621d1",
         "name": "Test CoinAcceptor Device Status After Drop Door Open",
-        "collection": "a03b6f1d267925ab",
+        "collection": "46101e6c5c832223",
         "timer": "",
         "tests": [
             {
@@ -3134,7 +3210,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "8847a3cdf5f621d1",
         "name": "Test CoinAcceptor Meters After Drop Door Open",
-        "collection": "a03b6f1d267925ab",
+        "collection": "46101e6c5c832223",
         "timer": "",
         "tests": [
             {
@@ -3156,7 +3232,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "8847a3cdf5f621d1",
         "name": "Test CoinAcceptor Device Status After Drop Door Closed",
-        "collection": "a03b6f1d267925ab",
+        "collection": "46101e6c5c832223",
         "timer": "",
         "tests": [
             {
@@ -3217,7 +3293,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "8847a3cdf5f621d1",
         "name": "Test Initial Drop Door Status",
-        "collection": "a03b6f1d267925ab",
+        "collection": "46101e6c5c832223",
         "timer": "",
         "tests": [
             {
@@ -3279,7 +3355,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "8847a3cdf5f621d1",
         "name": "Test Initial Drop Door Meters",
-        "collection": "a03b6f1d267925ab",
+        "collection": "46101e6c5c832223",
         "timer": "",
         "tests": [
             {
@@ -3436,7 +3512,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "3811e7aa51a88781",
         "name": "Test Initial CoinAcceptor Mechanical Fault Status",
-        "collection": "a03b6f1d267925ab",
+        "collection": "d8c6bc09b883629f",
         "timer": "",
         "tests": [
             {
@@ -3561,7 +3637,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "3811e7aa51a88781",
         "name": "Test Coin Acceptor Device Status After Mechanical Fault Set",
-        "collection": "a03b6f1d267925ab",
+        "collection": "d8c6bc09b883629f",
         "timer": "",
         "tests": [
             {
@@ -3686,7 +3762,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "3811e7aa51a88781",
         "name": "Test CoinAcceptor Device Status After Mechanical Fault Cleared",
-        "collection": "a03b6f1d267925ab",
+        "collection": "d8c6bc09b883629f",
         "timer": "",
         "tests": [
             {
@@ -3721,74 +3797,6 @@
         "wires": []
     },
     {
-        "id": "29388b80d37119b7",
-        "type": "test-collection-output",
-        "z": "9e8caeae3c861ce5",
-        "g": "c79d08c7bae299cb",
-        "name": "",
-        "collection": "a03b6f1d267925ab",
-        "x": 370,
-        "y": 1040,
-        "wires": [
-            [
-                "f33a1550474fb659",
-                "14f97943c484e1c5"
-            ]
-        ]
-    },
-    {
-        "id": "f33a1550474fb659",
-        "type": "debug",
-        "z": "9e8caeae3c861ce5",
-        "g": "c79d08c7bae299cb",
-        "name": "Print Results",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 580,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "14f97943c484e1c5",
-        "type": "test-exporter-junit",
-        "z": "9e8caeae3c861ce5",
-        "g": "c79d08c7bae299cb",
-        "name": "",
-        "x": 590,
-        "y": 1080,
-        "wires": [
-            [
-                "2637bc7daeb3c0ca"
-            ]
-        ]
-    },
-    {
-        "id": "2637bc7daeb3c0ca",
-        "type": "file",
-        "z": "9e8caeae3c861ce5",
-        "g": "c79d08c7bae299cb",
-        "name": "",
-        "filename": "coinAcceptor_test_report.xml",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 860,
-        "y": 1080,
-        "wires": [
-            [
-                "127fe2fdf8bc0482"
-            ]
-        ]
-    },
-    {
         "id": "6b4a550b5f793204",
         "type": "link in",
         "z": "9e8caeae3c861ce5",
@@ -3801,7 +3809,7 @@
         "y": 1040,
         "wires": [
             [
-                "29388b80d37119b7"
+                "f4116df93bbccdd0"
             ]
         ]
     },
@@ -3815,8 +3823,8 @@
         "links": [
             "0f92a0516dbb8d6a"
         ],
-        "x": 1085,
-        "y": 1080,
+        "x": 495,
+        "y": 1040,
         "wires": []
     },
     {
@@ -3901,7 +3909,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "1b45323fc883f949",
         "name": "Test Initial CoinAcceptor Status",
-        "collection": "a03b6f1d267925ab",
+        "collection": "6c90746e48a5abee",
         "timer": "",
         "tests": [
             {
@@ -3959,7 +3967,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "1b45323fc883f949",
         "name": "Test Initial CoinAcceptor Coin In Amount Meter",
-        "collection": "a03b6f1d267925ab",
+        "collection": "6c90746e48a5abee",
         "timer": "",
         "tests": [
             {
@@ -4074,7 +4082,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "1b45323fc883f949",
         "name": "Test Initial CoinAcceptor Coin In Count Meter",
-        "collection": "a03b6f1d267925ab",
+        "collection": "6c90746e48a5abee",
         "timer": "",
         "tests": [
             {
@@ -4168,7 +4176,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "1b45323fc883f949",
         "name": "Test CoinAcceptor Coin In Amount Meter After Coin Insertion",
-        "collection": "a03b6f1d267925ab",
+        "collection": "6c90746e48a5abee",
         "timer": "",
         "tests": [
             {
@@ -4190,7 +4198,7 @@
         "z": "9e8caeae3c861ce5",
         "g": "1b45323fc883f949",
         "name": "Test CoinAcceptor Coin In Count Meter After Coin Insertion",
-        "collection": "a03b6f1d267925ab",
+        "collection": "6c90746e48a5abee",
         "timer": "",
         "tests": [
             {
@@ -4326,6 +4334,32 @@
         ]
     },
     {
+        "id": "f4116df93bbccdd0",
+        "type": "subflow:a1954e354fc897bc",
+        "z": "9e8caeae3c861ce5",
+        "g": "c79d08c7bae299cb",
+        "name": "",
+        "env": [
+            {
+                "name": "collection_name",
+                "value": "G2S_coinAcceptor_tests",
+                "type": "str"
+            },
+            {
+                "name": "collection",
+                "value": "G2S_coinAcceptor_tests",
+                "type": "str"
+            }
+        ],
+        "x": 340,
+        "y": 1040,
+        "wires": [
+            [
+                "127fe2fdf8bc0482"
+            ]
+        ]
+    },
+    {
         "id": "58f7b22817a92324",
         "type": "g2sAction",
         "z": "c94aadc737aeba2c",
@@ -4436,7 +4470,7 @@
         "z": "c94aadc737aeba2c",
         "g": "cb9545e6214ed6fd",
         "name": "Test NoteAcceptor Device Status After Drop Door Open",
-        "collection": "39025918ae2b543b",
+        "collection": "967123efa45a99be",
         "timer": "",
         "tests": [
             {
@@ -4533,7 +4567,7 @@
         "z": "c94aadc737aeba2c",
         "g": "cb9545e6214ed6fd",
         "name": "Test NoteAcceptor Meters After Drop Door Open",
-        "collection": "39025918ae2b543b",
+        "collection": "967123efa45a99be",
         "timer": "",
         "tests": [
             {
@@ -4555,7 +4589,7 @@
         "z": "c94aadc737aeba2c",
         "g": "cb9545e6214ed6fd",
         "name": "Test NoteAcceptor Device Status After Drop Door Closed",
-        "collection": "39025918ae2b543b",
+        "collection": "967123efa45a99be",
         "timer": "",
         "tests": [
             {
@@ -4616,7 +4650,7 @@
         "z": "c94aadc737aeba2c",
         "g": "cb9545e6214ed6fd",
         "name": "Test Initial Drop Door Status",
-        "collection": "39025918ae2b543b",
+        "collection": "967123efa45a99be",
         "timer": "",
         "tests": [
             {
@@ -4678,7 +4712,7 @@
         "z": "c94aadc737aeba2c",
         "g": "cb9545e6214ed6fd",
         "name": "Test Initial Drop Door Meters",
-        "collection": "39025918ae2b543b",
+        "collection": "967123efa45a99be",
         "timer": "",
         "tests": [
             {
@@ -4945,7 +4979,7 @@
         "z": "c94aadc737aeba2c",
         "g": "d0194652c91bd897",
         "name": "Test NoteAcceptor Device Status After Stacker Removed",
-        "collection": "39025918ae2b543b",
+        "collection": "22ae68f5b472374b",
         "timer": "",
         "tests": [
             {
@@ -5042,7 +5076,7 @@
         "z": "c94aadc737aeba2c",
         "g": "d0194652c91bd897",
         "name": "Test NoteAcceptor Meters After Stacker Removal",
-        "collection": "39025918ae2b543b",
+        "collection": "22ae68f5b472374b",
         "timer": "",
         "tests": [
             {
@@ -5064,7 +5098,7 @@
         "z": "c94aadc737aeba2c",
         "g": "d0194652c91bd897",
         "name": "Test NoteAcceptor Device Status After Stacker Reinserted",
-        "collection": "39025918ae2b543b",
+        "collection": "22ae68f5b472374b",
         "timer": "",
         "tests": [
             {
@@ -5125,7 +5159,7 @@
         "z": "c94aadc737aeba2c",
         "g": "d0194652c91bd897",
         "name": "Test Initial Stacker Status",
-        "collection": "39025918ae2b543b",
+        "collection": "22ae68f5b472374b",
         "timer": "",
         "tests": [
             {
@@ -5187,7 +5221,7 @@
         "z": "c94aadc737aeba2c",
         "g": "d0194652c91bd897",
         "name": "Test Initial Stacker Meters",
-        "collection": "39025918ae2b543b",
+        "collection": "22ae68f5b472374b",
         "timer": "",
         "tests": [
             {
@@ -5338,74 +5372,6 @@
         ]
     },
     {
-        "id": "ec01898c4f66f962",
-        "type": "test-collection-output",
-        "z": "c94aadc737aeba2c",
-        "g": "dd27383e724564fc",
-        "name": "",
-        "collection": "39025918ae2b543b",
-        "x": 370,
-        "y": 1260,
-        "wires": [
-            [
-                "1aeba4d89c809169",
-                "41bf8e5904c4be34"
-            ]
-        ]
-    },
-    {
-        "id": "1aeba4d89c809169",
-        "type": "debug",
-        "z": "c94aadc737aeba2c",
-        "g": "dd27383e724564fc",
-        "name": "Print Results",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 580,
-        "y": 1260,
-        "wires": []
-    },
-    {
-        "id": "41bf8e5904c4be34",
-        "type": "test-exporter-junit",
-        "z": "c94aadc737aeba2c",
-        "g": "dd27383e724564fc",
-        "name": "",
-        "x": 590,
-        "y": 1300,
-        "wires": [
-            [
-                "f73dac472cfbddf2"
-            ]
-        ]
-    },
-    {
-        "id": "f73dac472cfbddf2",
-        "type": "file",
-        "z": "c94aadc737aeba2c",
-        "g": "dd27383e724564fc",
-        "name": "",
-        "filename": "noteAcceptor_test_report.xml",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": false,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 860,
-        "y": 1300,
-        "wires": [
-            [
-                "9bacf1bb4d5e4742"
-            ]
-        ]
-    },
-    {
         "id": "7c182c8acca29241",
         "type": "link in",
         "z": "c94aadc737aeba2c",
@@ -5418,7 +5384,7 @@
         "y": 1260,
         "wires": [
             [
-                "ec01898c4f66f962"
+                "376c0a9ae663669f"
             ]
         ]
     },
@@ -5432,8 +5398,8 @@
         "links": [
             "b84bb3ebfcf0769a"
         ],
-        "x": 1085,
-        "y": 1300,
+        "x": 475,
+        "y": 1260,
         "wires": []
     },
     {
@@ -5516,7 +5482,7 @@
         "z": "c94aadc737aeba2c",
         "g": "691fa100c9f8807d",
         "name": "Test Initial NoteAcceptor Status",
-        "collection": "39025918ae2b543b",
+        "collection": "d32b713aee85a34b",
         "timer": "",
         "tests": [
             {
@@ -5578,7 +5544,7 @@
         "z": "c94aadc737aeba2c",
         "g": "691fa100c9f8807d",
         "name": "Test Initial NoteAcceptor Notes In Amount Meter",
-        "collection": "39025918ae2b543b",
+        "collection": "d32b713aee85a34b",
         "timer": "",
         "tests": [
             {
@@ -5693,7 +5659,7 @@
         "z": "c94aadc737aeba2c",
         "g": "691fa100c9f8807d",
         "name": "Test Initial NoteAcceptor Note In Count Meter",
-        "collection": "39025918ae2b543b",
+        "collection": "d32b713aee85a34b",
         "timer": "",
         "tests": [
             {
@@ -5787,7 +5753,7 @@
         "z": "c94aadc737aeba2c",
         "g": "691fa100c9f8807d",
         "name": "Test NoteAcceptor Note In Count Meter After Note Insertion",
-        "collection": "39025918ae2b543b",
+        "collection": "d32b713aee85a34b",
         "timer": "",
         "tests": [
             {
@@ -5878,7 +5844,7 @@
         "z": "c94aadc737aeba2c",
         "g": "691fa100c9f8807d",
         "name": "Test NoteAcceptor Status After Note Insertion",
-        "collection": "39025918ae2b543b",
+        "collection": "d32b713aee85a34b",
         "timer": "",
         "tests": [
             {
@@ -5900,7 +5866,7 @@
         "z": "c94aadc737aeba2c",
         "g": "691fa100c9f8807d",
         "name": "Test NoteAcceptor Note In Amount Meter After Note Stacked",
-        "collection": "39025918ae2b543b",
+        "collection": "d32b713aee85a34b",
         "timer": "",
         "tests": [
             {
@@ -6036,7 +6002,7 @@
         "z": "c94aadc737aeba2c",
         "g": "691fa100c9f8807d",
         "name": "Test NoteAcceptor Status After Note Stacked",
-        "collection": "39025918ae2b543b",
+        "collection": "d32b713aee85a34b",
         "timer": "",
         "tests": [
             {
@@ -6049,6 +6015,37 @@
         "wires": [
             [
                 "c937ce47137e3e8d"
+            ]
+        ]
+    },
+    {
+        "id": "376c0a9ae663669f",
+        "type": "subflow:a1954e354fc897bc",
+        "z": "c94aadc737aeba2c",
+        "g": "dd27383e724564fc",
+        "name": "",
+        "env": [
+            {
+                "name": "collection_name",
+                "value": "G2S_noteAcceptor_tests",
+                "type": "str"
+            },
+            {
+                "name": "collection",
+                "value": "G2S_noteAcceptor_tests",
+                "type": "str"
+            },
+            {
+                "name": "Report Name",
+                "value": "noteAcceptor_test_report.xml",
+                "type": "str"
+            }
+        ],
+        "x": 320,
+        "y": 1260,
+        "wires": [
+            [
+                "9bacf1bb4d5e4742"
             ]
         ]
     },
