@@ -51,14 +51,14 @@
                 "y": 60,
                 "wires": [
                     {
-                        "id": "e2a02e8b32e9943f"
+                        "id": "0a7c5aaea2f78626"
                     }
                 ]
             }
         ],
         "out": [
             {
-                "x": 780,
+                "x": 950,
                 "y": 60,
                 "wires": [
                     {
@@ -71,6 +71,14 @@
         "env": [
             {
                 "name": "collection_name",
+                "type": "test-collection",
+                "value": "",
+                "ui": {
+                    "type": "conf-types"
+                }
+            },
+            {
+                "name": "report_name",
                 "type": "str",
                 "value": "",
                 "ui": {
@@ -597,8 +605,8 @@
         "type": "test-collection-output",
         "z": "a1954e354fc897bc",
         "name": "",
-        "collection": "39025918ae2b543b",
-        "x": 220,
+        "collection": "",
+        "x": 390,
         "y": 60,
         "wires": [
             [
@@ -611,7 +619,7 @@
         "type": "test-exporter-junit",
         "z": "a1954e354fc897bc",
         "name": "",
-        "x": 430,
+        "x": 600,
         "y": 60,
         "wires": [
             [
@@ -624,16 +632,43 @@
         "type": "file",
         "z": "a1954e354fc897bc",
         "name": "Write report to file",
-        "filename": "$env(\"collection_name\")&'.xml'",
+        "filename": "$env(\"report_name\")&'.xml'",
         "filenameType": "jsonata",
         "appendNewline": true,
         "createDir": false,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 630,
+        "x": 800,
         "y": 60,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "0a7c5aaea2f78626",
+        "type": "change",
+        "z": "a1954e354fc897bc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "collection_name",
+                "tot": "env"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 60,
+        "wires": [
+            [
+                "e2a02e8b32e9943f"
+            ]
         ]
     },
     {
@@ -2985,7 +3020,12 @@
         "env": [
             {
                 "name": "collection_name",
-                "value": "G2S_cabinet_tests",
+                "value": "f1af7bf27170a115",
+                "type": "conf-type"
+            },
+            {
+                "name": "report_name",
+                "value": "G2S_cabinet_tests_report",
                 "type": "str"
             },
             {
@@ -4342,7 +4382,12 @@
         "env": [
             {
                 "name": "collection_name",
-                "value": "G2S_coinAcceptor_tests",
+                "value": "a03b6f1d267925ab",
+                "type": "conf-type"
+            },
+            {
+                "name": "report_name",
+                "value": "G2S_coinAcceptor_tests_report",
                 "type": "str"
             },
             {
@@ -6027,7 +6072,12 @@
         "env": [
             {
                 "name": "collection_name",
-                "value": "G2S_noteAcceptor_tests",
+                "value": "39025918ae2b543b",
+                "type": "conf-type"
+            },
+            {
+                "name": "report_name",
+                "value": "G2S_noteAcceptor_tests_report",
                 "type": "str"
             },
             {
